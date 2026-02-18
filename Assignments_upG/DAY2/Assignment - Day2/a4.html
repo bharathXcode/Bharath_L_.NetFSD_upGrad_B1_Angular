@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Travel & Tourism Booking Platform">
+    <meta name="keywords" content="Travel, Booking, Flight, Tourism">
+    <meta name="author" content="SkyLine Travels">
+    <title>Travel Booking Platform</title>
+</head>
+<body>
+
+<header>
+    <h1>SkyLine Travel & Tourism</h1>
+    <nav>
+        <a href="#booking">Book Ticket</a> |
+        <a href="#promo">Promotional Video</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="booking">
+    <h2>Travel Booking Form</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Journey Details</legend>
+
+            <label>Source City:</label><br>
+            <input list="cities" name="source"
+                   placeholder="Enter source city"
+                   required>
+            <br><br>
+
+            <label>Destination City:</label><br>
+            <input list="cities" name="destination"
+                   placeholder="Enter destination city"
+                   required>
+            <datalist id="cities">
+                <option value="Delhi">
+                <option value="Mumbai">
+                <option value="Bangalore">
+                <option value="Chennai">
+                <option value="Hyderabad">
+            </datalist>
+            <br><br>
+
+            <label>Departure Date:</label><br>
+            <input type="date"
+                   name="departure"
+                   min="2026-01-01"
+                   required>
+            <br><br>
+
+            <label>Return Date:</label><br>
+            <input type="date"
+                   name="return"
+                   min="2026-01-01"
+                   required>
+            <br><br>
+
+            <label>Number of Passengers:</label><br>
+            <input type="number"
+                   name="passengers"
+                   min="1"
+                   max="10"
+                   required>
+            <br><br>
+
+            <label>Travel Class:</label><br>
+            <select name="class" required>
+                <option value="">Select Class</option>
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+            </select>
+            <br><br>
+
+            <label>Preferred Airline:</label><br>
+            <input type="text"
+                   list="airlines"
+                   name="airline"
+                   placeholder="Select or type airline"
+                   required>
+            <datalist id="airlines">
+                <option value="IndiGo">
+                <option value="Air India">
+                <option value="SpiceJet">
+                <option value="Vistara">
+            </datalist>
+            <br><br>
+
+            <label>Meal Preference:</label><br>
+            <input type="color" name="mealColor">
+            <br><br>
+
+            <label>Special Assistance Notes:</label><br>
+            <textarea name="notes"
+                      placeholder="Enter special assistance requirements here..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Book Now">
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+<section id="promo">
+    <h2>Explore Our Travel Packages</h2>
+
+    <video controls width="500" poster="travel-poster.jpg">
+        <source src="intro.mp4" type="video/mp4">
+        <source src="intro.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <audio autoplay loop>
+        <source src="travel-theme.mp3" type="audio/mpeg">
+        <source src="travel-theme.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+</section>
+
+</main>
+
+<footer>
+    <address>
+        SkyLine Travels <br>
+        Email: support@skylinetravels.com <br>
+        Phone: +91 9876543210
+    </address>
+</footer>
+
+</body>
+</html>

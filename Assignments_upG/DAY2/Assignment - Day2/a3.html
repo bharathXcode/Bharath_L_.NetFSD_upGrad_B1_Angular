@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="E-Learning Course Registration Portal">
+    <meta name="keywords" content="Online Course, Certification, Registration">
+    <meta name="author" content="EduTech Platform">
+    <title>E-Learning Registration Portal</title>
+</head>
+<body>
+
+<header>
+    <h1>EduTech Certification Program</h1>
+    <nav>
+        <a href="#register">Register</a> |
+        <a href="#intro">Course Introduction</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="register">
+    <h2>Course Registration</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Student Details</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname"
+                   placeholder="Enter your full name"
+                   required>
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"
+                   placeholder="Enter your email"
+                   required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Course Details</legend>
+
+            <label>Select Course:</label><br>
+            <input list="courses"
+                   name="course"
+                   placeholder="Type or select course"
+                   required>
+            <datalist id="courses">
+                <option value="Full Stack Development">
+                <option value="Data Science">
+                <option value="Cyber Security">
+                <option value="Cloud Computing">
+            </datalist>
+            <br><br>
+
+            <label>Select Batch Month:</label><br>
+            <input type="month"
+                   name="batch"
+                   required>
+            <br><br>
+
+            <label>Preferred Session Time:</label><br>
+            <input type="time"
+                   name="sessionTime"
+                   required>
+            <br><br>
+
+            <label>Rate Your Skill Level:</label><br>
+            Beginner
+            <input type="range"
+                   name="skill"
+                   min="0"
+                   max="100"
+                   value="50">
+            Expert
+            <br><br>
+
+            <label>Enrollment Progress:</label><br>
+            <progress value="50" max="100"></progress>
+            <br><br>
+
+            <input type="submit" value="Enroll Now">
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+<section id="intro">
+    <h2>Course Introduction Video</h2>
+
+    <video controls width="500" poster="course-poster.jpg">
+        <source src="intro.mp4" type="video/mp4">
+        <source src="intro.webm" type="video/webm">
+        <track src="subtitles.vtt"
+               kind="subtitles"
+               srclang="en"
+               label="English Subtitles"
+               default>
+        Your browser does not support the video tag.
+    </video>
+
+</section>
+
+</main>
+
+<footer>
+    <address>
+        EduTech Platform <br>
+        Email: support@edutech.com <br>
+        Phone: +91 9876543210
+    </address>
+</footer>
+
+</body>
+</html>

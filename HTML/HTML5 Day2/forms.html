@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<form autocomplete="on">
+<table border="1" cellpadding="6" cellspacing="0">
+
+    <tr>
+        <td>Full Name</td>
+        <td>
+            <input type="text" name="fullname"
+                   placeholder="Enter your full name"
+                   required autocomplete="name"
+                   autofocus>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Email</td>
+        <td>
+            <input type="email" name="email"
+                   placeholder="Enter your email"
+                   required autocomplete="email">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Password</td>
+        <td>
+            <input type="password" name="password"
+                   placeholder="Enter password"
+                   required autocomplete="new-password">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Phone</td>
+        <td>
+            <input type="tel" name="phone"
+                   placeholder="Enter phone number"
+                   required autocomplete="tel">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Username (AutoFill Off)</td>
+        <td>
+            <input type="text" name="username"
+                   placeholder="Enter username"
+                   required autocomplete="off">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Age</td>
+        <td>
+            <input type="number" min="1" max="120"
+                   placeholder="Enter age"
+                   required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Disabled Field</td>
+        <td>
+            <input type="text" value="You cannot edit this" disabled>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Captcha</td>
+        <td>
+            8 + 3 = ?
+            <input type="number"
+                   placeholder="Enter answer"
+                   required
+                   autocomplete="off">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>
