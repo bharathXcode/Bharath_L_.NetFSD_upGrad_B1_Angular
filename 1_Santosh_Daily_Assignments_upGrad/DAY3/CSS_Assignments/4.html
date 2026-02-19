@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureBank</title>
+    <link rel="stylesheet" href="4style.css">
+
+    <style>
+        .balance-highlight {
+            background: linear-gradient(135deg, #fff3cd, #ffe8a1);
+        }
+    </style>
+</head>
+<body>
+
+<div style="background:#c0392b; color:white; padding:12px; text-align:center;">
+    ⚠ Warning: Unauthorized access is strictly prohibited
+</div>
+
+<header class="top-header">
+    <div class="logo-section">
+        <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" width="45">
+        <h1>SecureBank</h1>
+    </div>
+</header>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+            <li>Dashboard</li>
+            <li>Accounts</li>
+            <li>Transactions</li>
+            <li>Settings</li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <div class="summary-container">
+
+            <div class="card balance-highlight">
+                <h3>Account Balance</h3>
+                <p>₹1,25,000</p>
+            </div>
+
+            <div class="card">
+                <h3>Savings Account</h3>
+                <p>₹75,000</p>
+            </div>
+
+            <div class="card">
+                <h3>Fixed Deposit</h3>
+                <p>₹50,000</p>
+            </div>
+
+        </div>
+
+        <h2>Recent Transactions</h2>
+
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Amount</th>
+            </tr>
+
+            <tr>
+                <td>01/02/2026</td>
+                <td>Grocery Store</td>
+                <td class="debit">Debit</td>
+                <td>- ₹2,000</td>
+            </tr>
+
+            <tr>
+                <td>03/02/2026</td>
+                <td>Salary</td>
+                <td class="credit">Credit</td>
+                <td>+ ₹50,000</td>
+            </tr>
+
+            <tr>
+                <td>05/02/2026</td>
+                <td>Electricity Bill</td>
+                <td class="debit">Debit</td>
+                <td>- ₹3,500</td>
+            </tr>
+        </table>
+
+        <h2>Login Form</h2>
+
+        <form class="login-form">
+            <input type="text" placeholder="Username"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <button>Login</button>
+        </form>
+
+    </main>
+
+</div>
+
+<footer>
+    © 2026 SecureBank. All Rights Reserved.
+</footer>
+
+</body>
+</html>

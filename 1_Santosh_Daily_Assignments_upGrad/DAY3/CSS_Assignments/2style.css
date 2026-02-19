@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #1e3c72;
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar li:first-child {
+    font-weight: bold;
+}
+
+.navbar li:hover {
+    color: #ffd700;
+}
+
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px;
+    width: 220px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.course > h3 {
+    margin-top: 10px;
+    color: #1e3c72;
+}
+
+h3 + p {
+    color: gray;
+}
+
+.course:hover {
+    background: #e6f0ff;
+    transform: translateY(-5px);
+}
+
+.course:first-child {
+    background: #fff8dc;
+}
+
+.course:last-child {
+    background: #e6ffe6;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e3c72;
+    color: white;
+}
