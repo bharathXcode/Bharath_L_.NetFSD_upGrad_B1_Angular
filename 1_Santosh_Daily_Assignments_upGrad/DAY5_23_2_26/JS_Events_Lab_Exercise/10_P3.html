@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 10</title>
+<style>
+#reportBox{margin-top:20px;padding:15px;border:1px solid black;width:300px}
+</style>
+</head>
+<body>
+
+<button id="generate">Generate Report</button>
+
+<div id="reportBox">
+<h3>Report Status</h3>
+<p id="report"></p>
+</div>
+
+<script>
+const btn=document.getElementById("generate")
+const report=document.getElementById("report")
+
+btn.addEventListener("click",function(){
+const data={
+time:new Date().toLocaleTimeString(),
+totalUsers:Math.floor(Math.random()*1000),
+sales:Math.floor(Math.random()*50000)
+}
+const event=new CustomEvent("reportGenerated",{detail:data})
+document.dispatchEvent(event)
+})
+
+document.addEventListener("reportGenerated",function(e){
+report.innerText=
+"Generated at: "+e.detail.time+
+" | Users: "+e.detail.totalUsers+
+" | Sales: ₹"+e.detail.sales
+})
+</script>
+
+</body>
+</html>

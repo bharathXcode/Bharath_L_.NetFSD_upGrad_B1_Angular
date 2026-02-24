@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 4</title>
+<style>
+img{width:150px;transition:0.3s;margin:10px}
+</style>
+</head>
+<body>
+
+<img src="https://picsum.photos/200?1" title="Image 1">
+<img src="https://picsum.photos/200?2" title="Image 2">
+<img src="https://picsum.photos/200?3" title="Image 3">
+<img src="https://picsum.photos/200?4" title="Image 4">
+
+<script>
+document.querySelectorAll("img").forEach(img=>{
+img.addEventListener("mouseover",function(){
+img.style.transform="scale(1.2)"
+})
+img.addEventListener("mouseout",function(){
+img.style.transform="scale(1)"
+})
+img.addEventListener("click",function(){
+img.style.width="300px"
+})
+})
+</script>
+
+</body>
+</html>

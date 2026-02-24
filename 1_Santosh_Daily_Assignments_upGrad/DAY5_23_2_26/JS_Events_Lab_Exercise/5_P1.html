@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 5</title>
+<style>
+#bar{position:fixed;top:0;left:0;height:5px;width:0;background:green}
+body{height:2000px}
+</style>
+</head>
+<body>
+
+<div id="bar"></div>
+
+<script>
+const bar=document.getElementById("bar")
+
+window.addEventListener("scroll",function(){
+const scrollTop=document.documentElement.scrollTop
+const height=document.documentElement.scrollHeight-document.documentElement.clientHeight
+const percent=(scrollTop/height)*100
+bar.style.width=percent+"%"
+if(percent>80){
+bar.style.background="red"
+}else{
+bar.style.background="green"
+}
+})
+</script>
+
+</body>
+</html>

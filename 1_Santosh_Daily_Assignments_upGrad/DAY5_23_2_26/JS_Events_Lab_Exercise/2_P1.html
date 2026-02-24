@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 2</title>
+<style>
+.completed{text-decoration:line-through}
+li{cursor:pointer}
+</style>
+</head>
+<body>
+
+<input type="text" id="item">
+<button id="add">Add</button>
+<ul id="list"></ul>
+
+<script>
+const input=document.getElementById("item")
+const add=document.getElementById("add")
+const list=document.getElementById("list")
+
+add.onclick=function(){
+if(input.value.trim()!==""){
+const li=document.createElement("li")
+li.innerHTML=input.value+" <span data-action='delete'>❌</span>"
+list.appendChild(li)
+input.value=""
+}
+}
+
+list.addEventListener("click",function(e){
+if(e.target.dataset.action==="delete"){
+e.target.parentNode.remove()
+}else if(e.target.tagName==="LI"){
+e.target.classList.toggle("completed")
+}
+})
+</script>
+
+</body>
+</html>

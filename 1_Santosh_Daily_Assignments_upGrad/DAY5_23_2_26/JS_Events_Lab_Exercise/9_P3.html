@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 9</title>
+<style>
+.card{border:1px solid black;padding:10px;margin:5px}
+#log{height:120px;overflow:auto;border:1px solid gray;margin-top:10px}
+</style>
+</head>
+<body>
+
+<button id="add">Add Card</button>
+
+<div id="cards"></div>
+
+<h4>Window Size: <span id="size"></span></h4>
+<h4>Scroll: <span id="scroll">0</span>%</h4>
+
+<div id="log"></div>
+
+<script>
+const cards=document.getElementById("cards")
+const log=document.getElementById("log")
+const sizeDisplay=document.getElementById("size")
+const scrollDisplay=document.getElementById("scroll")
+
+function addLog(msg){
+const line=document.createElement("div")
+line.innerText=msg
+log.appendChild(line)
+log.scrollTop=log.scrollHeight
+}
+
+function updateSize(){
+sizeDisplay.innerText=window.innerWidth+" x "+window.innerHeight
+}
+
+function updateScroll(){
+const totalHeight=document.documentElement.scrollHeight-window.innerHeight
+const percent=(window.scrollY/totalHeight)*100
+scrollDisplay.innerText=Math.floor(percent)
+}
+
+document.getElementById("add").onclick=function(){
+const div=document.createElement("div")
+div.className="card"
+div.innerHTML="Card <button data-action='delete'>X</button>"
+cards.appendChild(div)
+addLog("Card Added")
+}
+
+cards.addEventListener("click",function(e){
+if(e.target.dataset.action==="delete"){
+e.target.parentNode.remove()
+addLog("Card Deleted")
+}
+})
+
+window.addEventListener("resize",function(){
+updateSize()
+addLog("Window Resized")
+})
+
+window.addEventListener("scroll",updateScroll)
+
+window.addEventListener("load",function(){
+updateSize()
+updateScroll()
+addLog("Page Loaded")
+})
+</script>
+
+</body>
+</html>

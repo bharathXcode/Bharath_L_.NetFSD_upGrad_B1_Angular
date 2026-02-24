@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Info Display</title>
+<style>
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#667eea,#764ba2);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+width:320px;
+text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,0.3);
+}
+input{
+width:90%;
+padding:8px;
+margin:8px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+button{
+padding:8px 15px;
+background:#28a745;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+button:hover{background:#1f7d34}
+p{margin:5px 0}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h3>User Information</h3>
+
+<input type="text" id="nameInput" placeholder="Enter Name">
+<input type="number" id="ageInput" placeholder="Enter Age">
+<input type="text" id="cityInput" placeholder="Enter City">
+
+<button id="showBtn">Display Info</button>
+
+<p id="name"></p>
+<p id="age"></p>
+<p id="city"></p>
+
+</div>
+
+<script>
+function displayUserInfo(userObj){
+document.getElementById("name").innerText = "Name: " + userObj.name
+document.getElementById("age").innerText = "Age: " + userObj.age
+document.getElementById("city").innerText = "City: " + userObj.city
+}
+
+document.getElementById("showBtn").addEventListener("click", function(){
+
+const user = {
+name: document.getElementById("nameInput").value,
+age: document.getElementById("ageInput").value,
+city: document.getElementById("cityInput").value
+}
+
+displayUserInfo(user)
+
+})
+</script>
+
+</body>
+</html>

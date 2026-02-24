@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 1</title>
+<style>
+textarea{width:300px;height:100px;border:2px solid black}
+.red{border-color:red}
+.warning{color:red}
+</style>
+</head>
+<body>
+
+<textarea id="text" maxlength="100"></textarea>
+<div id="count">0 / 100</div>
+<div id="msg"></div>
+<button id="submit">Submit</button>
+
+<script>
+const text=document.getElementById("text")
+const count=document.getElementById("count")
+const msg=document.getElementById("msg")
+const btn=document.getElementById("submit")
+
+text.addEventListener("input",function(e){
+count.innerText=text.value.length+" / 100"
+if(text.value.length>=100){
+text.classList.add("red")
+msg.innerText="Character limit reached"
+msg.className="warning"
+btn.disabled=true
+e.preventDefault()
+}else{
+text.classList.remove("red")
+msg.innerText=""
+btn.disabled=false
+}
+})
+</script>
+
+</body>
+</html>
