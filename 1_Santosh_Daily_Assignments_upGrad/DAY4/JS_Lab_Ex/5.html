@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Traversal</title>
+</head>
+<body>
+
+    <h2>Array Traversal - Colors</h2>
+
+    <button onclick="showColors()">Show Colors</button>
+
+    <div id="output"></div>
+
+    <script>
+        function showColors() {
+            let colors = ["Red", "Blue", "Green", "Yellow", "Black"];
+            let result = "";
+
+            for (let i = 0; i < colors.length; i++) {
+                result += colors[i] + "<br>";
+            }
+
+            document.getElementById("output").innerHTML = result;
+        }
+    </script>
+
+</body>
+</html>
