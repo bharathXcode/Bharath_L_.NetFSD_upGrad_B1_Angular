@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart Management</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: lightyellow;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background-color: darkred;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Shopping Cart System</h1>
+
+    <button onclick="totalCart()">Total Cart Value</button>
+    <button onclick="increaseQty()">Increase Laptop Qty</button>
+    <button onclick="removeProduct()">Remove Mouse</button>
+    <button onclick="applyDiscount()">Apply 10% Discount</button>
+    <button onclick="sortCart()">Sort by Item Total</button>
+    <button onclick="checkExpensive()">Check Expensive</button>
+    <button onclick="checkStock()">Check Stock</button>
+    <button onclick="generateInvoice()">Generate Invoice</button>
+    <button onclick="mostExpensive()">Most Expensive</button>
+    <button onclick="calculateGST()">Calculate GST</button>
+
+    <div class="output" id="result"></div>
+</div>
+
+<script>
+let cart = [
+  { id: 1, product: "Laptop", price: 60000, qty: 1 },
+  { id: 2, product: "Headphones", price: 2000, qty: 2 },
+  { id: 3, product: "Mouse", price: 800, qty: 1 }
+];
+
+function totalCart(){
+    let total = cart.reduce((sum, item) =>
+        sum + (item.price * item.qty), 0);
+    document.getElementById("result").innerHTML =
+        "<b>Total Cart Value:</b> ₹" + total;
+}
+
+function increaseQty(){
+    cart = cart.map(item =>
+        item.product === "Laptop"
+        ? {...item, qty: item.qty + 1}
+        : item
+    );
+    displayTable(cart);
+}
+
+function removeProduct(){
+    cart = cart.filter(item => item.product !== "Mouse");
+    displayTable(cart);
+}
+
+function applyDiscount(){
+    cart = cart.map(item =>
+        item.price > 10000
+        ? {...item, price: Math.round(item.price * 0.9)}
+        : item
+    );
+    displayTable(cart);
+}
+
+function sortCart(){
+    cart.sort((a,b)=>
+        (b.price*b.qty) - (a.price*a.qty)
+    );
+    displayTable(cart);
+}
+
+function checkExpensive(){
+    let expensive = cart.some(item => item.price > 50000);
+    document.getElementById("result").innerHTML =
+        expensive ? "There is a product above ₹50000"
+                  : "No product above ₹50000";
+}
+
+function checkStock(){
+    let stock = cart.every(item => item.qty > 0);
+    document.getElementById("result").innerHTML =
+        stock ? "All items are in stock"
+              : "Some items are out of stock";
+}
+
+/* BONUS */
+
+function generateInvoice(){
+    let invoice = cart.map(item =>
+        item.product + " - ₹" + (item.price * item.qty)
+    ).join("<br>");
+    document.getElementById("result").innerHTML =
+        "<b>Invoice:</b><br>" + invoice;
+}
+
+function mostExpensive(){
+    let max = cart.reduce((prev, curr) =>
+        (prev.price > curr.price) ? prev : curr
+    );
+    document.getElementById("result").innerHTML =
+        "<b>Most Expensive Product:</b> " +
+        max.product + " (₹" + max.price + ")";
+}
+
+function calculateGST(){
+    let total = cart.reduce((sum,item)=>
+        sum + (item.price * item.qty),0);
+    let gst = Math.round(total * 0.18);
+    let final = total + gst;
+
+    document.getElementById("result").innerHTML =
+        "<b>Total:</b> ₹" + total +
+        "<br><b>GST (18%):</b> ₹" + gst +
+        "<br><b>Final Amount:</b> ₹" + final;
+}
+
+function displayTable(data){
+    let table = "<table><tr><th>ID</th><th>Product</th><th>Price</th><th>Qty</th><th>Total</th></tr>";
+    data.forEach(item=>{
+        table += `<tr>
+                    <td>${item.id}</td>
+                    <td>${item.product}</td>
+                    <td>₹${item.price}</td>
+                    <td>${item.qty}</td>
+                    <td>₹${item.price*item.qty}</td>
+                  </tr>`;
+    });
+    table += "</table>";
+    document.getElementById("result").innerHTML = table;
+}
+</script>
+
+</body>
+</html>

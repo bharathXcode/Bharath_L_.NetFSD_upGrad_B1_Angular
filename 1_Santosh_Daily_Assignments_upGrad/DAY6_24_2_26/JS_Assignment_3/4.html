@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Expense Tracker</title>
+<style>
+body{font-family:Arial;text-align:center;padding:30px}
+input{margin:5px;padding:5px}
+button{margin:5px;padding:6px 10px}
+</style>
+</head>
+<body>
+
+<h2>Expense Tracker</h2>
+
+<input type="text" id="title" placeholder="Title">
+<input type="number" id="amount" placeholder="Amount">
+<input type="date" id="date">
+
+<br>
+<button onclick="addExpense()">Add Expense</button>
+<button onclick="viewExpenses()">View Expenses</button>
+
+<ul id="list"></ul>
+
+<script>
+let db
+let request=indexedDB.open("ExpenseDB",1)
+
+request.onupgradeneeded=function(event){
+db=event.target.result
+db.createObjectStore("expenses",{keyPath:"id",autoIncrement:true})
+}
+
+request.onsuccess=function(event){
+db=event.target.result
+}
+
+request.onerror=function(){
+alert("Database Error")
+}
+
+function addExpense(){
+let transaction=db.transaction(["expenses"],"readwrite")
+let store=transaction.objectStore("expenses")
+
+let expense={
+title:document.getElementById("title").value,
+amount:document.getElementById("amount").value,
+date:document.getElementById("date").value
+}
+
+store.add(expense)
+
+transaction.onerror=function(){
+alert("Transaction Error")
+}
+}
+
+function viewExpenses(){
+let transaction=db.transaction(["expenses"],"readonly")
+let store=transaction.objectStore("expenses")
+let request=store.getAll()
+
+request.onsuccess=function(){
+let list=document.getElementById("list")
+list.innerHTML=""
+request.result.forEach(function(item){
+let li=document.createElement("li")
+li.innerHTML=
+item.title+" - ₹"+item.amount+" - "+item.date+
+" <button onclick='deleteExpense("+item.id+")'>Delete</button>"
+list.appendChild(li)
+})
+}
+}
+
+function deleteExpense(id){
+let transaction=db.transaction(["expenses"],"readwrite")
+let store=transaction.objectStore("expenses")
+store.delete(id)
+transaction.oncomplete=function(){
+viewExpenses()
+}
+}
+</script>
+
+</body>
+</html>

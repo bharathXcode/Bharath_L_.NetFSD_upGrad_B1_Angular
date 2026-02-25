@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Payroll System</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            background-color: darkgreen;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: navy;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: lightyellow;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Payroll System</h1>
+
+    <button onclick="totalExpense()">Total Salary Expense</button>
+    <button onclick="highestLowest()">Highest & Lowest Paid</button>
+    <button onclick="increaseIT()">Increase IT Salary 15%</button>
+    <button onclick="groupByDept()">Group By Department</button>
+    <button onclick="deptAverage()">Department Avg Salary</button>
+    <button onclick="sortSalary()">Sort Salary Desc</button>
+    <button onclick="applyTax()">Apply 10% Tax</button>
+    <button onclick="aboveAverage()">Above Average Salary</button>
+    <button onclick="showTable()">Show Employee Table</button>
+
+    <div class="output" id="result"></div>
+</div>
+
+<script>
+let employees = [
+ { id:1, name:"Ravi", dept:"IT", salary:70000 },
+ { id:2, name:"Anita", dept:"HR", salary:50000 },
+ { id:3, name:"Karan", dept:"IT", salary:80000 },
+ { id:4, name:"Meena", dept:"Finance", salary:60000 }
+];
+
+function totalExpense(){
+    let total = employees.reduce((sum,e)=> sum + e.salary,0);
+    document.getElementById("result").innerHTML =
+        "<b>Total Salary Expense:</b> ₹" + total;
+}
+
+function highestLowest(){
+    let highest = employees.reduce((a,b)=> a.salary>b.salary?a:b);
+    let lowest = employees.reduce((a,b)=> a.salary<b.salary?a:b);
+
+    document.getElementById("result").innerHTML =
+        "<b>Highest Paid:</b> "+highest.name+" (₹"+highest.salary+")"+
+        "<br><b>Lowest Paid:</b> "+lowest.name+" (₹"+lowest.salary+")";
+}
+
+function increaseIT(){
+    employees = employees.map(emp =>
+        emp.dept === "IT"
+        ? {...emp, salary: Math.round(emp.salary*1.15)}
+        : emp
+    );
+    showTable();
+}
+
+function groupByDept(){
+    let grouped = employees.reduce((acc,emp)=>{
+        if(!acc[emp.dept]) acc[emp.dept]=[];
+        acc[emp.dept].push(emp.name);
+        return acc;
+    },{});
+
+    let output="";
+    for(let dept in grouped){
+        output += "<b>"+dept+":</b> "+grouped[dept].join(", ")+"<br>";
+    }
+
+    document.getElementById("result").innerHTML = output;
+}
+
+function deptAverage(){
+    let grouped = employees.reduce((acc,emp)=>{
+        if(!acc[emp.dept]) acc[emp.dept]=[];
+        acc[emp.dept].push(emp.salary);
+        return acc;
+    },{});
+
+    let output="";
+    for(let dept in grouped){
+        let avg = grouped[dept].reduce((a,b)=>a+b,0)/grouped[dept].length;
+        output += "<b>"+dept+" Avg:</b> ₹"+avg.toFixed(0)+"<br>";
+    }
+
+    document.getElementById("result").innerHTML = output;
+}
+
+function sortSalary(){
+    employees.sort((a,b)=> b.salary - a.salary);
+    showTable();
+}
+
+/* BONUS */
+
+function applyTax(){
+    let taxed = employees.map(emp=>({
+        ...emp,
+        tax: Math.round(emp.salary*0.10),
+        netSalary: Math.round(emp.salary*0.90)
+    }));
+    displayCustomTable(taxed);
+}
+
+function aboveAverage(){
+    let avg = employees.reduce((sum,e)=>sum+e.salary,0)/employees.length;
+    let result = employees.filter(e=> e.salary>avg);
+    displayCustomTable(result);
+}
+
+function showTable(){
+    displayCustomTable(employees);
+}
+
+function displayCustomTable(data){
+    let table="<table><tr>";
+    Object.keys(data[0]).forEach(key=>{
+        table+="<th>"+key.toUpperCase()+"</th>";
+    });
+    table+="</tr>";
+
+    data.forEach(obj=>{
+        table+="<tr>";
+        Object.values(obj).forEach(val=>{
+            table+="<td>"+val+"</td>";
+        });
+        table+="</tr>";
+    });
+
+    table+="</table>";
+    document.getElementById("result").innerHTML=table;
+}
+</script>
+
+</body>
+</html>

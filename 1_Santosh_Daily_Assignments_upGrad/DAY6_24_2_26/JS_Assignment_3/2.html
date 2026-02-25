@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Live Form Validation</title>
+<style>
+body{font-family:Arial;text-align:center;padding:40px;background:#f2f2f2}
+input{margin:8px;padding:6px}
+.error{color:red;font-size:14px}
+.success{color:green}
+</style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<input type="text" id="name" placeholder="Name" onchange="validateName()">
+<p id="nameMsg" class="error"></p>
+
+<input type="text" id="email" placeholder="Email" onchange="validateEmail()">
+<p id="emailMsg" class="error"></p>
+
+<input type="number" id="age" placeholder="Age" onchange="validateAge()">
+<p id="ageMsg" class="error"></p>
+
+<button onclick="submitForm()">Submit</button>
+
+<p id="finalMsg"></p>
+
+<script>
+function validateName(){
+let name=document.getElementById("name").value.trim()
+if(name===""){
+document.getElementById("nameMsg").innerText="Name cannot be empty"
+return false
+}
+document.getElementById("nameMsg").innerText=""
+return true
+}
+
+function validateEmail(){
+let email=document.getElementById("email").value
+if(!email.includes("@")){
+document.getElementById("emailMsg").innerText="Email must contain @"
+return false
+}
+document.getElementById("emailMsg").innerText=""
+return true
+}
+
+function validateAge(){
+let age=Number(document.getElementById("age").value)
+if(age<=18){
+document.getElementById("ageMsg").innerText="Age must be greater than 18"
+return false
+}
+document.getElementById("ageMsg").innerText=""
+return true
+}
+
+function submitForm(){
+if(validateName() && validateEmail() && validateAge()){
+sessionStorage.setItem("userName",document.getElementById("name").value)
+sessionStorage.setItem("userEmail",document.getElementById("email").value)
+sessionStorage.setItem("userAge",document.getElementById("age").value)
+document.getElementById("finalMsg").innerText="Data Stored Successfully"
+document.getElementById("finalMsg").className="success"
+}
+}
+</script>
+
+</body>
+</html>

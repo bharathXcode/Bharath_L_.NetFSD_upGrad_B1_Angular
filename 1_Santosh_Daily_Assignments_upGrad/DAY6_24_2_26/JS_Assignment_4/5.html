@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Cleaning & Analytics</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: lightyellow;
+            border-radius: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Data Cleaning & Analytics</h1>
+
+    <button onclick="removeDuplicates()">Remove Duplicates</button>
+    <button onclick="secondLargest()">Second Largest</button>
+    <button onclick="frequencyCount()">Frequency</button>
+    <button onclick="firstNonRepeating()">First Non-Repeating</button>
+    <button onclick="rotateArray()">Rotate by 2</button>
+    <button onclick="flattenArray()">Flatten Nested</button>
+    <button onclick="findMissing()">Find Missing</button>
+
+    <div class="output" id="result"></div>
+</div>
+
+<script>
+let numbers = [10, 20, 30, 10, 40, 20, 50, 60, 60];
+
+function removeDuplicates(){
+    let unique = [...new Set(numbers)];
+    document.getElementById("result").innerHTML =
+        "<b>Unique Numbers:</b> " + unique.join(", ");
+}
+
+function secondLargest(){
+    let unique = [...new Set(numbers)];
+    unique.sort((a,b)=> b-a);
+    document.getElementById("result").innerHTML =
+        "<b>Second Largest:</b> " + unique[1];
+}
+
+function frequencyCount(){
+    let freq = numbers.reduce((acc,num)=>{
+        acc[num] = (acc[num] || 0) + 1;
+        return acc;
+    },{});
+
+    let output="";
+    for(let key in freq){
+        output += key + " : " + freq[key] + "<br>";
+    }
+
+    document.getElementById("result").innerHTML = output;
+}
+
+function firstNonRepeating(){
+    let freq = numbers.reduce((acc,num)=>{
+        acc[num] = (acc[num] || 0) + 1;
+        return acc;
+    },{});
+
+    let first = numbers.find(num => freq[num] === 1);
+
+    document.getElementById("result").innerHTML =
+        "<b>First Non-Repeating:</b> " + first;
+}
+
+function rotateArray(){
+    let rotated = numbers.slice(2).concat(numbers.slice(0,2));
+    document.getElementById("result").innerHTML =
+        "<b>Rotated Array:</b> " + rotated.join(", ");
+}
+
+function flattenArray(){
+    let nested = [1,2,[3,4,[5]]];
+    let flat = nested.flat(Infinity);
+
+    document.getElementById("result").innerHTML =
+        "<b>Flattened Array:</b> " + flat.join(", ");
+}
+
+function findMissing(){
+    let arr = [1,2,3,5,6];
+    let n = arr.length + 1;
+    let total = (n*(n+1))/2;
+    let sum = arr.reduce((a,b)=>a+b,0);
+
+    document.getElementById("result").innerHTML =
+        "<b>Missing Number:</b> " + (total - sum);
+}
+</script>
+
+</body>
+</html>
