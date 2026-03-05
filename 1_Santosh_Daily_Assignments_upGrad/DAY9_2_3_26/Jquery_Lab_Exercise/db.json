@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Java Basics",
+      "author": "James Gosling"
+    },
+    {
+      "id": "2",
+      "title": "Spring Boot",
+      "author": "Rod Johnson"
+    },
+    {
+      "id": "8a91",
+      "title": "Java Advanced",
+      "author": "Bharath"
+    },
+    {
+      "id": "2754",
+      "title": "python",
+      "author": "raju"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

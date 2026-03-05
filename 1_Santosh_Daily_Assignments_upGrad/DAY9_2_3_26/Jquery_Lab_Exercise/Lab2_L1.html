@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo App</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<input type="text" id="taskInput" placeholder="Enter Task">
+<button id="addTask">Add</button>
+<button id="clearAll">Clear All</button>
+
+<ul id="taskList"></ul>
+
+<script>
+$(document).ready(function(){
+
+    // Add task
+    $("#addTask").click(function(){
+        let task = $("#taskInput").val().trim();
+
+        if(task === ""){
+            alert("Task cannot be empty");
+            return;
+        }
+
+        $("#taskList").append(
+            "<li>"+task+" <button class='delete'>Delete</button></li>"
+        );
+
+        $("#taskInput").val("");
+    });
+
+    // Delete task
+    $(document).on("click",".delete",function(){
+        $(this).parent().remove();
+    });
+
+    // Clear all
+    $("#clearAll").click(function(){
+        $("#taskList").empty();
+    });
+
+});
+</script>
+
+</body>
+</html>

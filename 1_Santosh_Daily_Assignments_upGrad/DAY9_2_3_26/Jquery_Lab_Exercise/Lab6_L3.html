@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 6 - CRUD Books (Sequential Display)</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 30px; }
+        input { padding: 6px; margin: 5px; }
+        button { padding: 6px 10px; margin: 5px; cursor: pointer; }
+        table { margin: 20px auto; border-collapse: collapse; width: 70%; }
+        th, td { border: 1px solid black; padding: 8px; }
+        th { background: lightgray; }
+
+        #toast {
+            display: none;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: green;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Book Management System</h2>
+
+<input type="hidden" id="bookId">
+<input type="text" id="title" placeholder="Book Title">
+<input type="text" id="author" placeholder="Author Name">
+<button id="saveBtn">Save</button>
+
+<div id="toast"></div>
+
+<table>
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="bookTable"></tbody>
+</table>
+
+<script>
+
+$(document).ready(function(){
+
+    const apiURL = "http://localhost:3000/books";
+
+    loadBooks();
+
+    // ================= LOAD BOOKS =================
+    function loadBooks(){
+        $.get(apiURL, function(data){
+            $("#bookTable").empty();
+
+            $.each(data, function(index, book){
+                $("#bookTable").append(`
+                    <tr>
+                        <td>${index + 1}</td>  <!-- Sequential Number -->
+                        <td>${book.title}</td>
+                        <td>${book.author}</td>
+                        <td>
+                            <button onclick="editBook(${book.id})">Edit</button>
+                            <button onclick="deleteBook(${book.id})">Delete</button>
+                        </td>
+                    </tr>
+                `);
+            });
+        });
+    }
+
+    // ================= SAVE (ADD / UPDATE) =================
+    $("#saveBtn").click(function(){
+
+        let id = $("#bookId").val();
+        let title = $("#title").val().trim();
+        let author = $("#author").val().trim();
+
+        if(title === "" || author === ""){
+            alert("All fields are required!");
+            return;
+        }
+
+        if(id){  
+            // UPDATE
+            $.ajax({
+                url: apiURL + "/" + id,
+                type: "PUT",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    id: Number(id), 
+                    title: title, 
+                    author: author
+                }),
+                success: function(){
+                    showToast("Book Updated Successfully");
+                    resetForm();
+                    loadBooks();
+                }
+            });
+
+        } else {  
+            // ADD
+            $.ajax({
+                url: apiURL,
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    title: title, 
+                    author: author
+                }),
+                success: function(){
+                    showToast("Book Added Successfully");
+                    resetForm();
+                    loadBooks();
+                }
+            });
+        }
+
+    });
+
+});
+
+// ================= EDIT =================
+function editBook(id){
+    $.get("http://localhost:3000/books/" + id, function(book){
+        $("#bookId").val(book.id);
+        $("#title").val(book.title);
+        $("#author").val(book.author);
+    });
+}
+
+// ================= DELETE =================
+function deleteBook(id){
+    if(confirm("Are you sure you want to delete this book?")){
+        $.ajax({
+            url: "http://localhost:3000/books/" + id,
+            type: "DELETE",
+            success: function(){
+                showToast("Book Deleted Successfully");
+                location.reload(); 
+            }
+        });
+    }
+}
+
+// ================= RESET =================
+function resetForm(){
+    $("#bookId").val("");
+    $("#title").val("");
+    $("#author").val("");
+}
+
+// ================= TOAST =================
+function showToast(message){
+    $("#toast").text(message).fadeIn().delay(2000).fadeOut();
+}
+
+</script>
+
+</body>
+</html>
