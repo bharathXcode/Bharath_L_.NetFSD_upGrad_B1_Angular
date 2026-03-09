@@ -1,0 +1,181 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "AI & Machine Learning Bootcamp",
+      "description": "Hands-on ML algorithms, neural networks, and AI tools",
+      "date": "2026-05-20",
+      "location": "Bangalore",
+      "capacity": 120,
+      "availableSeats": 110
+    },
+    {
+      "id": "2",
+      "title": "Full Stack Web Development Workshop",
+      "description": "React, Node.js, Spring Boot and database integration",
+      "date": "2026-06-10",
+      "location": "Hyderabad",
+      "capacity": 90,
+      "availableSeats": 82
+    },
+    {
+      "id": "3",
+      "title": "Cyber Security Conference",
+      "description": "Ethical hacking, penetration testing and security tools",
+      "date": "2026-07-12",
+      "location": "Chennai",
+      "capacity": 150,
+      "availableSeats": 140
+    },
+    {
+      "id": "4",
+      "title": "Cloud Computing Summit",
+      "description": "AWS, Azure, Kubernetes and DevOps pipelines",
+      "date": "2026-08-05",
+      "location": "Mumbai",
+      "capacity": 200,
+      "availableSeats": 185
+    },
+    {
+      "id": "5",
+      "title": "Data Science & Analytics Workshop",
+      "description": "Python, Pandas, Data visualization and ML basics",
+      "date": "2026-09-01",
+      "location": "Delhi",
+      "capacity": 100,
+      "availableSeats": 95
+    },
+    {
+      "id": "6",
+      "title": "Blockchain Technology Bootcamp",
+      "description": "Smart contracts, Ethereum and decentralized apps",
+      "date": "2026-10-10",
+      "location": "Pune",
+      "capacity": 80,
+      "availableSeats": 74
+    },
+    {
+      "id": "7",
+      "title": "UI/UX Design Masterclass",
+      "description": "Design thinking, wireframing, Figma and usability testing",
+      "date": "2026-06-25",
+      "location": "Bangalore",
+      "capacity": 70,
+      "availableSeats": 65
+    },
+    {
+      "id": "8",
+      "title": "Mobile App Development Bootcamp",
+      "description": "Flutter, Android Studio and cross-platform development",
+      "date": "2026-07-20",
+      "location": "Hyderabad",
+      "capacity": 110,
+      "availableSeats": 102
+    },
+    {
+      "id": "9",
+      "title": "Startup & Entrepreneurship Summit",
+      "description": "Business models, funding strategies and scaling startups",
+      "date": "2026-11-15",
+      "location": "Delhi",
+      "capacity": 250,
+      "availableSeats": 240
+    },
+    {
+      "id": "10",
+      "title": "DevOps Engineering Workshop",
+      "description": "CI/CD pipelines, Docker, Kubernetes and automation",
+      "date": "2026-12-01",
+      "location": "Chennai",
+      "capacity": 100,
+      "availableSeats": 90
+    }
+  ],
+  "registrations": [
+    {
+      "id": "1",
+      "eventId": 1,
+      "participantName": "Rahul Sharma",
+      "email": "rahul.sharma@gmail.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "2",
+      "eventId": 1,
+      "participantName": "Sneha Reddy",
+      "email": "sneha.reddy@gmail.com",
+      "phone": "9123456789"
+    },
+    {
+      "id": "3",
+      "eventId": 2,
+      "participantName": "Arjun Kumar",
+      "email": "arjun.kumar@gmail.com",
+      "phone": "9012345678"
+    },
+    {
+      "id": "4",
+      "eventId": 2,
+      "participantName": "Priya Nair",
+      "email": "priya.nair@gmail.com",
+      "phone": "9988776655"
+    },
+    {
+      "id": "5",
+      "eventId": 3,
+      "participantName": "Rohit Verma",
+      "email": "rohit.verma@gmail.com",
+      "phone": "8899776655"
+    },
+    {
+      "id": "6",
+      "eventId": 4,
+      "participantName": "Anjali Mehta",
+      "email": "anjali.mehta@gmail.com",
+      "phone": "9345678123"
+    },
+    {
+      "id": "7",
+      "eventId": 5,
+      "participantName": "Karan Gupta",
+      "email": "karan.gupta@gmail.com",
+      "phone": "9234567812"
+    },
+    {
+      "id": "8",
+      "eventId": 6,
+      "participantName": "Meera Iyer",
+      "email": "meera.iyer@gmail.com",
+      "phone": "9112233445"
+    },
+    {
+      "id": "9",
+      "eventId": 7,
+      "participantName": "Aditya Singh",
+      "email": "aditya.singh@gmail.com",
+      "phone": "9786543210"
+    },
+    {
+      "id": "10",
+      "eventId": 8,
+      "participantName": "Neha Kapoor",
+      "email": "neha.kapoor@gmail.com",
+      "phone": "9871234560"
+    },
+    {
+      "id": "1e62",
+      "eventId": 10,
+      "participantName": "Bharath",
+      "email": "b@gmail.com",
+      "phone": "01111122222"
+    },
+    {
+      "id": "43aa",
+      "eventId": 10,
+      "participantName": "",
+      "email": "",
+      "phone": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

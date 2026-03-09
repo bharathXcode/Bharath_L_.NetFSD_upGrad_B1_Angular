@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>EventSphere</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/events.css">
+<link rel="stylesheet" href="css/forms.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<h1>Upcoming Events</h1>
+
+<div id="events"></div>
+
+<script type="module">
+
+import {loadEvents} from "./js/controllers/eventController.js"
+
+loadEvents()
+
+</script>
+
+</body>
+
+</html>

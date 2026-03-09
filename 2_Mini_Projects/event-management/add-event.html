@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Add Event</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/forms.css">
+
+</head>
+
+<body>
+
+<h1>Add Event</h1>
+
+<form id="eventForm">
+
+<input type="text" id="title" placeholder="Event Title">
+
+<input type="text" id="location" placeholder="Location">
+
+<input type="date" id="date">
+
+<input type="number" id="capacity" placeholder="Capacity">
+
+<button>Add Event</button>
+
+</form>
+
+<script type="module">
+
+import {addEventController} from "./js/controllers/eventController.js"
+
+addEventController()
+
+</script>
+
+</body>
+
+</html>

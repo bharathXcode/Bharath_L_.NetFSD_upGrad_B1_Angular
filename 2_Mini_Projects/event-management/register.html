@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Register</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/forms.css">
+
+</head>
+
+<body>
+
+<h1>Register for Event</h1>
+
+<form id="registerForm">
+
+<input type="text" id="name" placeholder="Name">
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="text" id="phone" placeholder="Phone">
+
+<button>Register</button>
+
+</form>
+
+<script type="module">
+
+import {registerController} from "./js/controllers/registrationController.js"
+
+registerController()
+
+</script>
+
+</body>
+
+</html>
