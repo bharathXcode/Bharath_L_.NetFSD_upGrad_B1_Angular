@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q19_palindromecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q19_palindromecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q18_comparetwowords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q18_comparetwowords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q17_reverseword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q17_reverseword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q16_wordlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q16_wordlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q15_marksanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q15_marksanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q14_smallestoffivenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q14_smallestoffivenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q13_largestofthreenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q13_largestofthreenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q12_divisibleby7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q12_divisibleby7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q11_multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q11_multiplicationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q10_fibonacciseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q10_fibonacciseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q9_factorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q9_factorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q8_squareseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q8_squareseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q7_productpricecalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q7_productpricecalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q6_fahrenheittocelsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q6_fahrenheittocelsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q5_countoddevennumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q5_countoddevennumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q4_oddoreven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q4_oddoreven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q3_numbersbetweentwonumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q3_numbersbetweentwonumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q2_commandlinegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q2_commandlinegreeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\q1_displaymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:q1_displaymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_1\\c#_basic_assignment_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{41314DF6-BB1B-4F2D-BEFE-C3113B59942C}|C#_Basic_Assignment_1.csproj|solutionrelative:c#_basic_assignment_1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q19_PalindromeCheck.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q19_PalindromeCheck.cs",
+              "RelativeDocumentMoniker": "Q19_PalindromeCheck.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q19_PalindromeCheck.cs",
+              "RelativeToolTip": "Q19_PalindromeCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:56:29.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q18_CompareTwoWords.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q18_CompareTwoWords.cs",
+              "RelativeDocumentMoniker": "Q18_CompareTwoWords.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q18_CompareTwoWords.cs",
+              "RelativeToolTip": "Q18_CompareTwoWords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:55:49.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q17_ReverseWord.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q17_ReverseWord.cs",
+              "RelativeDocumentMoniker": "Q17_ReverseWord.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q17_ReverseWord.cs",
+              "RelativeToolTip": "Q17_ReverseWord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:54:54.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q16_WordLength.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q16_WordLength.cs",
+              "RelativeDocumentMoniker": "Q16_WordLength.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q16_WordLength.cs",
+              "RelativeToolTip": "Q16_WordLength.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:53:56.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q15_MarksAnalysis.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q15_MarksAnalysis.cs",
+              "RelativeDocumentMoniker": "Q15_MarksAnalysis.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q15_MarksAnalysis.cs",
+              "RelativeToolTip": "Q15_MarksAnalysis.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:52:03.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:26:00.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q14_SmallestOfFiveNumbers.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q14_SmallestOfFiveNumbers.cs",
+              "RelativeDocumentMoniker": "Q14_SmallestOfFiveNumbers.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q14_SmallestOfFiveNumbers.cs",
+              "RelativeToolTip": "Q14_SmallestOfFiveNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:48:25.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Q13_LargestOfThreeNumbers.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q13_LargestOfThreeNumbers.cs",
+              "RelativeDocumentMoniker": "Q13_LargestOfThreeNumbers.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q13_LargestOfThreeNumbers.cs",
+              "RelativeToolTip": "Q13_LargestOfThreeNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:47:19.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Q12_DivisibleBy7.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q12_DivisibleBy7.cs",
+              "RelativeDocumentMoniker": "Q12_DivisibleBy7.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q12_DivisibleBy7.cs",
+              "RelativeToolTip": "Q12_DivisibleBy7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:45:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Q11_MultiplicationTable.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q11_MultiplicationTable.cs",
+              "RelativeDocumentMoniker": "Q11_MultiplicationTable.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q11_MultiplicationTable.cs",
+              "RelativeToolTip": "Q11_MultiplicationTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:44:02.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Q10_FibonacciSeries.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q10_FibonacciSeries.cs",
+              "RelativeDocumentMoniker": "Q10_FibonacciSeries.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q10_FibonacciSeries.cs",
+              "RelativeToolTip": "Q10_FibonacciSeries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:42:23.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Q5_CountOddEvenNumbers.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q5_CountOddEvenNumbers.cs",
+              "RelativeDocumentMoniker": "Q5_CountOddEvenNumbers.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q5_CountOddEvenNumbers.cs",
+              "RelativeToolTip": "Q5_CountOddEvenNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:32:38.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Q4_OddOrEven.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q4_OddOrEven.cs",
+              "RelativeDocumentMoniker": "Q4_OddOrEven.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q4_OddOrEven.cs",
+              "RelativeToolTip": "Q4_OddOrEven.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:29:53.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Q6_FahrenheitToCelsius.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q6_FahrenheitToCelsius.cs",
+              "RelativeDocumentMoniker": "Q6_FahrenheitToCelsius.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q6_FahrenheitToCelsius.cs",
+              "RelativeToolTip": "Q6_FahrenheitToCelsius.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:36:06.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Q7_ProductPriceCalculation.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q7_ProductPriceCalculation.cs",
+              "RelativeDocumentMoniker": "Q7_ProductPriceCalculation.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q7_ProductPriceCalculation.cs",
+              "RelativeToolTip": "Q7_ProductPriceCalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:36:53.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Q8_SquareSeries.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q8_SquareSeries.cs",
+              "RelativeDocumentMoniker": "Q8_SquareSeries.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q8_SquareSeries.cs",
+              "RelativeToolTip": "Q8_SquareSeries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:38:02.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Q9_Factorial.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q9_Factorial.cs",
+              "RelativeDocumentMoniker": "Q9_Factorial.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q9_Factorial.cs",
+              "RelativeToolTip": "Q9_Factorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:40:03.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Q3_NumbersBetweenTwoNumbers.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q3_NumbersBetweenTwoNumbers.cs",
+              "RelativeDocumentMoniker": "Q3_NumbersBetweenTwoNumbers.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q3_NumbersBetweenTwoNumbers.cs",
+              "RelativeToolTip": "Q3_NumbersBetweenTwoNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:28:25.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Q2_CommandLineGreeting.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q2_CommandLineGreeting.cs",
+              "RelativeDocumentMoniker": "Q2_CommandLineGreeting.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q2_CommandLineGreeting.cs",
+              "RelativeToolTip": "Q2_CommandLineGreeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:17:12.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Q1_DisplayMessage.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q1_DisplayMessage.cs",
+              "RelativeDocumentMoniker": "Q1_DisplayMessage.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\Q1_DisplayMessage.cs",
+              "RelativeToolTip": "Q1_DisplayMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:11:42.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "C#_Basic_Assignment_1",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\C#_Basic_Assignment_1.csproj",
+              "RelativeDocumentMoniker": "C#_Basic_Assignment_1.csproj",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_1\\C#_Basic_Assignment_1.csproj",
+              "RelativeToolTip": "C#_Basic_Assignment_1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-11T11:22:26.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

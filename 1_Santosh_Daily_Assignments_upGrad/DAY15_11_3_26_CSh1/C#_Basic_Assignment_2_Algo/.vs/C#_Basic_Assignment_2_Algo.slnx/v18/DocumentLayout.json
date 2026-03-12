@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q8_vowelorconsonant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q8_vowelorconsonant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q7_journeytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q7_journeytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q6_areacalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q6_areacalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q5_highestnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q5_highestnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q4_oddeven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q4_oddeven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q1_division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q1_division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q2_kmtometers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q2_kmtometers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day15_11_3_26_csh1\\c#_basic_assignment_2_algo\\q3_sumaverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8EF01E-B435-4F21-8259-0A7B209F8080}|C#_Basic_Assignment_2_Algo.csproj|solutionrelative:q3_sumaverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q8_VowelOrConsonant.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q8_VowelOrConsonant.cs",
+              "RelativeDocumentMoniker": "Q8_VowelOrConsonant.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q8_VowelOrConsonant.cs",
+              "RelativeToolTip": "Q8_VowelOrConsonant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:06:35.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q7_JourneyTime.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q7_JourneyTime.cs",
+              "RelativeDocumentMoniker": "Q7_JourneyTime.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q7_JourneyTime.cs",
+              "RelativeToolTip": "Q7_JourneyTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:06:01.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q6_AreaCalculation.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q6_AreaCalculation.cs",
+              "RelativeDocumentMoniker": "Q6_AreaCalculation.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q6_AreaCalculation.cs",
+              "RelativeToolTip": "Q6_AreaCalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:05:13.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q5_HighestNumber.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q5_HighestNumber.cs",
+              "RelativeDocumentMoniker": "Q5_HighestNumber.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q5_HighestNumber.cs",
+              "RelativeToolTip": "Q5_HighestNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:04:12.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q4_OddEven.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q4_OddEven.cs",
+              "RelativeDocumentMoniker": "Q4_OddEven.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q4_OddEven.cs",
+              "RelativeToolTip": "Q4_OddEven.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:01:30.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T12:58:01.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Q3_SumAverage.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q3_SumAverage.cs",
+              "RelativeDocumentMoniker": "Q3_SumAverage.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q3_SumAverage.cs",
+              "RelativeToolTip": "Q3_SumAverage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:00:52.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Q2_KMToMeters.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q2_KMToMeters.cs",
+              "RelativeDocumentMoniker": "Q2_KMToMeters.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q2_KMToMeters.cs",
+              "RelativeToolTip": "Q2_KMToMeters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:00:17.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q1_Division.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q1_Division.cs",
+              "RelativeDocumentMoniker": "Q1_Division.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY15_11_3_26_CSh1\\C#_Basic_Assignment_2_Algo\\Q1_Division.cs",
+              "RelativeToolTip": "Q1_Division.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T12:59:24.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
