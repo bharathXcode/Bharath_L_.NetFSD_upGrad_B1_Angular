@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#_Assignment_3_Class_Properties")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e2a66611e9ee046dfe40511e20da200b36995c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7f41252cf3f1d8666436c62f0e9d20e45455c6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#_Assignment_3_Class_Properties")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#_Assignment_3_Class_Properties")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

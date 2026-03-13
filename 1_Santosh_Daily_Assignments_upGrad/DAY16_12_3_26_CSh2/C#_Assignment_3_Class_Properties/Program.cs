@@ -12,6 +12,8 @@ class Program
         p.Disease = "Diabetes";
         p.Display();
 
+        Console.WriteLine("----------------------------------");
+
         // Q2 Doctor
         Q2_Doctor d1 = new Q2_Doctor();
         d1.DoctorId = 1;
@@ -27,6 +29,8 @@ class Program
 
         d1.Display();
         d2.Display();
+
+        Console.WriteLine("----------------------------------");
 
         // Q3 Hospital
         Q3_Hospital.HospitalName = "City Hospital";
@@ -45,11 +49,15 @@ class Program
         h2.Display();
         h3.Display();
 
+        Console.WriteLine("----------------------------------");
+
         // Q4 Appointment
         Q4_Appointment a = new Q4_Appointment();
         a.AppointmentId = 1001;
         a.PatientName = "Kiran";
         a.Display();
+
+        Console.WriteLine("----------------------------------");
 
         // Q5 Medical Test
         Q5_MedicalTest t1 = new Q5_MedicalTest(1, "Blood Test", 500);
@@ -58,12 +66,16 @@ class Program
         t1.Display();
         t2.Display();
 
+        Console.WriteLine("----------------------------------");
+
         // Q6 Billing
         Q6_Billing b = new Q6_Billing();
         b.PatientName = "Ramesh";
         b.ConsultationFee = 500;
         b.TestCharges = 1000;
         b.Display();
+
+        Console.WriteLine("----------------------------------");
 
         // Q7 Nurse
         Q7_Nurse n = new Q7_Nurse
@@ -75,6 +87,8 @@ class Program
 
         n.Display();
 
+        Console.WriteLine("----------------------------------");
+
         // Q8 Patient Record
         Q8_PatientRecord.HospitalName = "Apollo Hospital";
 
@@ -85,5 +99,7 @@ class Program
         pr1.DisplayPatientRecord();
         pr2.DisplayPatientRecord();
         pr3.DisplayPatientRecord();
+
+        Console.WriteLine("----------------------------------");
     }
 }
