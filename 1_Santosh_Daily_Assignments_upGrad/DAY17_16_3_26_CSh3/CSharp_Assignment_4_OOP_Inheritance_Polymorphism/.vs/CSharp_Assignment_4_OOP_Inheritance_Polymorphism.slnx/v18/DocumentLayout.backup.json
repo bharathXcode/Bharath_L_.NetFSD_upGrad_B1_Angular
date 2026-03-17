@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\csharp_assignment_4_oop_inheritance_polymorphism.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:csharp_assignment_4_oop_inheritance_polymorphism.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q6_furnituremanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q6_furnituremanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q5_studentgradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q5_studentgradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q4_vehiclesealedclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q4_vehiclesealedclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q3_ecommerceshipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q3_ecommerceshipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q2_bankingmethodhiding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q2_bankingmethodhiding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day17_16_3_26_csh3\\csharp_assignment_4_oop_inheritance_polymorphism\\q1_healthcaresalarysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1FF157-8661-4A23-A2BD-CC26DC611386}|CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj|solutionrelative:q1_healthcaresalarysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q6_FurnitureManagement.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q6_FurnitureManagement.cs",
+              "RelativeDocumentMoniker": "Q6_FurnitureManagement.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q6_FurnitureManagement.cs",
+              "RelativeToolTip": "Q6_FurnitureManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:58:31.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q5_StudentGradingSystem.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q5_StudentGradingSystem.cs",
+              "RelativeDocumentMoniker": "Q5_StudentGradingSystem.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q5_StudentGradingSystem.cs",
+              "RelativeToolTip": "Q5_StudentGradingSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:57:45.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q4_VehicleSealedClass.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q4_VehicleSealedClass.cs",
+              "RelativeDocumentMoniker": "Q4_VehicleSealedClass.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q4_VehicleSealedClass.cs",
+              "RelativeToolTip": "Q4_VehicleSealedClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:56:22.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q3_EcommerceShipping.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q3_EcommerceShipping.cs",
+              "RelativeDocumentMoniker": "Q3_EcommerceShipping.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q3_EcommerceShipping.cs",
+              "RelativeToolTip": "Q3_EcommerceShipping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:54:28.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CSharp_Assignment_4_OOP_Inheritance_Polymorphism",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj",
+              "RelativeDocumentMoniker": "CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj",
+              "RelativeToolTip": "CSharp_Assignment_4_OOP_Inheritance_Polymorphism.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T03:50:04.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q2_BankingMethodHiding.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q2_BankingMethodHiding.cs",
+              "RelativeDocumentMoniker": "Q2_BankingMethodHiding.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q2_BankingMethodHiding.cs",
+              "RelativeToolTip": "Q2_BankingMethodHiding.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:51:12.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q1_HealthcareSalarySystem.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q1_HealthcareSalarySystem.cs",
+              "RelativeDocumentMoniker": "Q1_HealthcareSalarySystem.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY17_16_3_26_CSh3\\CSharp_Assignment_4_OOP_Inheritance_Polymorphism\\Q1_HealthcareSalarySystem.cs",
+              "RelativeToolTip": "Q1_HealthcareSalarySystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T03:48:45.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
