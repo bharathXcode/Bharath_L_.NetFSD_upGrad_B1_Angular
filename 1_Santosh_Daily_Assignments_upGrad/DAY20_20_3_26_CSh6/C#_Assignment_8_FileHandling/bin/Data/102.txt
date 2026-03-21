@@ -1,0 +1,6 @@
+Name: Chutki
+Roll: 102
+Marks: 56,89,99
+Total: 244
+Average: 81.33333333333333
+Grade: A

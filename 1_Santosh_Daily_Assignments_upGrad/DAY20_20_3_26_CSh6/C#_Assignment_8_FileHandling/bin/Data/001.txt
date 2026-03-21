@@ -1,0 +1,6 @@
+Name: Vinay
+Roll: 001
+Marks: 75,56,78
+Total: 209
+Average: 69.66666666666667
+Grade: B
