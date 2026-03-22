@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Showing Ajax Load Request Status in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#productList").load("https://dummyjson.com/products/1");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="productList"></div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mouse Events Demo</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 200px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="box">Interact Here</div>
+    <p id="output"></p>
+
+    <script>
+        const box = document.getElementById("box");
+        const output = document.getElementById("output");
+
+        box.addEventListener("click", () => output.innerText = "Click Event Fired");
+        box.addEventListener("dblclick", () => output.innerText = "Double Click Fired");
+        box.addEventListener("mousedown", () => output.innerText = "Mouse Down");
+        box.addEventListener("mouseover", () => box.style.backgroundColor = "orange");
+        box.addEventListener("mouseout", () => box.style.backgroundColor = "lightblue");
+
+    </script>
+
+</body>
+
+</html>

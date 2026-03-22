@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Set HTML Contents of the Element</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("button").click(function () {
+                //$("body").html("<p>Hello World!</p>");
+                $("#id1").html("<h1>Hello World!</h1>");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button type="button">Write Message</button>
+    <div id="id1">
+
+    </div>
+</body>
+
+</html>

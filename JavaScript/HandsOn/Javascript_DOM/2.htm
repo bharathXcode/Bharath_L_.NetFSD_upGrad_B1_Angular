@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1">Javascirpt is Object based!!!</p>
+    <button onclick="changeColorAndText()">Click</button>
+    <script>
+        document.write('Welcome to Javascript in Web!!');
+        //access p element 
+        let obj = document.getElementById('p1'); //return p object
+        //access innter text of the p object
+        alert(obj.innerText);
+        function changeColorAndText() {
+            document.getElementById('p1').style.color = 'blue';
+            //chage text of the paragraph
+            document.getElementById('p1').innerText = 'Javascript supports Mobile App design!!'
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 450
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "price": 550
+    },
+    {
+      "id": "6ae3",
+      "title": "Javascript",
+      "author": "Santhosh",
+      "price": "1000"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+1.	Write a program in C# to display a message as follows: “Welcome to the world of C#”
+2.	Write a program in C# to accept the name of the user as a command line argument and greet the user as:
+	“Hi! username 
+	Welcome to the world of C#”
+3.	Write a program in C# to accept two numbers as command line argument and display all the numbers between the given two numbers.
+4.	Accept a number from the user and display whether the given number is an odd number or even number.
+5.	Write a program in C# to find the total number of odd and even numbers accepted from the user.
+6.	Write a program in C# to display temperature in Celsius. Accept the temperature in Fahrenheit.
+7.	A shopkeeper sells three products whose retail prices are as follows: Product 1, 22.5; product 2, 44.50; and product 3, 9.98. Write an application that reads a series of pairs of numbers as follows:
+a)product number
+b)quantity sold
+and calculate the total price.
+8.	Write a program to print the series: 0,1,4,9,16,.....625
+9.	Write a program in C# to find the factorial of the given number.
+10.	Write a program in C# to generate a Fibonacci series till 40.
+11.	Write a program in C# to find the multiplication table of the given number till 20.
+12.	Write a program to print the numbers divisible by 7 between 200 and 300.
+13.	Write a program in C# to find the largest of the given three numbers. Accept the numbers from the users.
+14.	Write a program in C# to find the smallest of five numbers accepted from the user.
+15.	Write a program in C# to accept ten marks and display the following
+a.	Total
+b.	Average
+c.	Minimum marks
+d.	Maximum marks
+e.	Display marks in ascending order
+f.	Display marks in descending order
+16.	Write a program in C# to accept a word from the user and display the length of it.
+17.	Write a program in C# to accept a word from the user and display the reverse of it.
+18.	Write a program in C# to accept two words from user and find out if they are same.
+19.	Write a program in C# to accept a word and to find out whether the given word is a palindrome or not.

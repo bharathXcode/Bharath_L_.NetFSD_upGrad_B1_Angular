@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            color: green;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function toDo() {
+            let p = document.getElementById('p1'); //return one p object
+            p.style.color = 'red';
+            p.style.backgroundColor = 'green';
+            let h1 = document.getElementById('h1');
+            h1.innerText = 'React is Javascript based';
+            h1.className = "head";
+        }
+    </script>
+</head>
+
+<body>
+    <p id="p1">I am para1</p>
+    <h1 id="h1">Javascript Demo</h1>
+    <button onclick="toDo()">Change Color</button>
+</body>
+</html>

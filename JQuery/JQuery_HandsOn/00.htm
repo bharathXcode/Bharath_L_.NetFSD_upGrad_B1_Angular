@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        //old way of using jQuery ready function
+        $(document).ready(function () {
+            //jQuery code to manipulate the DOM or handle events can go here
+            console.log("jQuery is ready!");
+        })
+        $(document).ready(() => {
+            // Arrow function version of jQuery ready
+            console.log("jQuery with arrow function is ready!");
+        })
+        $(function () {
+            // Shorthand for $(document).ready()
+            console.log("jQuery shorthand is ready!");
+        });
+        $(() => {
+            // Shorthand with arrow function
+            console.log("jQuery shorthand with arrow function is ready!");
+        })
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

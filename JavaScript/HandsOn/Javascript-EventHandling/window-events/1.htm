@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            height: 2000px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Scroll Down</h2>
+    <p id="status"></p>
+
+    <script>
+        window.addEventListener("load", () => {
+            document.getElementById("status").innerText = "Page Loaded";
+        });
+
+        window.addEventListener("resize", () => {
+            console.log("Window Resized");
+        });
+
+        window.addEventListener("scroll", () => {
+            console.log("Scrolling...");
+        });
+    </script>
+
+</body>
+
+</html>
+<!-- 
+Load fires once
+
+Resize logs on window resize
+
+Scroll logs continuously -->

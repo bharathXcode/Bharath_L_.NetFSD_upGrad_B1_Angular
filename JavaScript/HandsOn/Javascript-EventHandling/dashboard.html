@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Task Manager</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        #taskList li {
+            padding: 8px;
+            margin: 5px 0;
+            background: #f0f0f0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #taskList li:hover {
+            background: #d3f8d3;
+        }
+
+        .deleteBtn {
+            color: red;
+            cursor: pointer;
+        }
+
+        #scrollProgress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 5px;
+            background: green;
+            width: 0%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="scrollProgress"></div>
+
+    <h2>Smart Task Manager</h2>
+
+    <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <span id="charCount">0</span> characters
+        <button type="submit">Add Task</button>
+    </form>
+
+    <br>
+
+    <input type="text" id="searchInput" placeholder="Search task...">
+
+    <ul id="taskList"></ul>
+
+    <p id="windowSize"></p>
+
+    <script>
+
+        const form = document.getElementById("taskForm");
+        const taskInput = document.getElementById("taskInput");
+        const taskList = document.getElementById("taskList");
+        const searchInput = document.getElementById("searchInput");
+        const charCount = document.getElementById("charCount");
+        const windowSize = document.getElementById("windowSize");
+
+
+
+        // ================= FORM EVENT =================
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            if (taskInput.value.trim() === "") return;
+
+            const li = document.createElement("li");
+            li.innerHTML = `
+        <span>${taskInput.value}</span>
+        <span class="deleteBtn">❌</span>
+    `;
+
+            taskList.appendChild(li);
+            taskInput.value = "";
+            charCount.innerText = 0;
+        });
+
+
+        // ================= KEYBOARD EVENT =================
+        taskInput.addEventListener("input", function () {
+            charCount.innerText = taskInput.value.length;
+        });
+
+
+        // ================= SEARCH FILTER =================
+        searchInput.addEventListener("keyup", function () {
+            const filter = searchInput.value.toLowerCase();
+            const tasks = taskList.getElementsByTagName("li");
+
+            Array.from(tasks).forEach(task => {
+                const text = task.innerText.toLowerCase();
+                task.style.display = text.includes(filter) ? "flex" : "none";
+            });
+        });
+
+
+        // ================= MOUSE EVENT (Event Delegation) =================
+        taskList.addEventListener("click", function (event) {
+
+            if (event.target.classList.contains("deleteBtn")) {
+                event.target.parentElement.remove();
+            } else {
+                alert("Task Clicked: " + event.target.innerText);
+            }
+
+        });
+
+
+        // ================= WINDOW RESIZE EVENT =================
+        window.addEventListener("resize", function () {
+            windowSize.innerText =
+                "Window Size: " + window.innerWidth + " x " + window.innerHeight;
+        });
+
+
+        // ================= SCROLL EVENT =================
+        window.addEventListener("scroll", function () {
+            const scrollTop = document.documentElement.scrollTop;
+            const scrollHeight =
+                document.documentElement.scrollHeight -
+                document.documentElement.clientHeight;
+
+            const scrolled = (scrollTop / scrollHeight) * 100;
+            scrollProgress.style.width = scrolled + "%";
+        });
+
+
+        // ================= PAGE LOAD EVENT =================
+        window.addEventListener("load", function () {
+            alert("Application Loaded Successfully!");
+        });
+
+    </script>
+
+</body>
+
+</html>

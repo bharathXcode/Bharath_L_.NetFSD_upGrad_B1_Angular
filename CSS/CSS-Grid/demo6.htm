@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 100px 100px;
+            gap: 15px;
+            height: 300px;
+        }
+
+        .box {
+            background: teal;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .item1 {
+            grid-column: 1 / 3;
+        }
+
+        .item2 {
+            grid-row: 1 / 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box item1">Span 2 Columns</div>
+        <div class="box item2">Span 2 Rows</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+
+</body>
+
+</html>

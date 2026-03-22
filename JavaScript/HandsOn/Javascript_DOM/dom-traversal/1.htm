@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const greet = function () {
+            document.write('Hello Anonymous Functions');
+        }
+        greet();
+    </script>
+</head>
+
+<body>
+    <div id="parent">
+        <p id="child">Hello DOM</p>
+        <button id="b1">Click</button>
+    </div>
+    <script>
+        let child = document.getElementById("child");
+        console.log(child.parentNode);  // returns div#parent
+        document.getElementById('b1').addEventListener('click', function () {
+            child.parentNode.style.backgroundColor = "yellow";
+        });
+    </script>
+</body>
+
+</html>

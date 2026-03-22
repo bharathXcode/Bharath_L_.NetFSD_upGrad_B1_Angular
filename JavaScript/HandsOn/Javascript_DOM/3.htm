@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("Hello from Javascript");
+    </script>
+
+</head>
+
+<body>
+    <p>Javascipt is casesensitive</p>
+    <p>Javascript supports Oops!!!</p>
+    <script>
+        //getElementsByTagName('p') return array of p objects
+        let items = document.getElementsByTagName('p');
+        //access object from items array
+        let txt = items[0].innerText
+        alert(txt);
+        for (let item of items) {
+            alert(item.innerText)
+        }
+    </script>
+</body>
+
+</html>

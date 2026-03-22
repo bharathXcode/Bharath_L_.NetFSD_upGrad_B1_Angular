@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Executing a Function on Click Event in jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style type="text/css">
+        p {
+            padding: 20px;
+            font: 20px sans-serif;
+            background: khaki;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("p").click(function () {
+                $(this).slideUp(1000); // This will hide the paragraph with a sliding effect
+                // $(this).hide(); // This will hide the paragraph immediately without any effect
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p>Click on me and I'll disappear.</p>
+    <p>Click on me and I'll disappear.</p>
+    <p>Click on me and I'll disappear.</p>
+</body>
+
+</html>

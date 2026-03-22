@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D87CA068-1C4B-FC87-65A0-9059A28BBF65}|C#_Assignment_3_Class_Properties.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day16_12_3_26_csh2\\c#_assignment_3_class_properties\\c#_assignment_3_class_properties.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D87CA068-1C4B-FC87-65A0-9059A28BBF65}|C#_Assignment_3_Class_Properties.csproj|solutionrelative:c#_assignment_3_class_properties.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D87CA068-1C4B-FC87-65A0-9059A28BBF65}|C#_Assignment_3_Class_Properties.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day16_12_3_26_csh2\\c#_assignment_3_class_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D87CA068-1C4B-FC87-65A0-9059A28BBF65}|C#_Assignment_3_Class_Properties.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "C#_Assignment_3_Class_Properties",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\C#_Assignment_3_Class_Properties.csproj",
+              "RelativeDocumentMoniker": "C#_Assignment_3_Class_Properties.csproj",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\C#_Assignment_3_Class_Properties.csproj",
+              "RelativeToolTip": "C#_Assignment_3_Class_Properties.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T12:26:06.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Q8_PatientRecord.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q8_PatientRecord.cs",
               "RelativeDocumentMoniker": "Q8_PatientRecord.cs",
@@ -58,12 +74,11 @@
               "RelativeToolTip": "Q8_PatientRecord.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:20:46.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:20:46.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Q6_Billing.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q6_Billing.cs",
               "RelativeDocumentMoniker": "Q6_Billing.cs",
@@ -75,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Q5_MedicalTest.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q5_MedicalTest.cs",
               "RelativeDocumentMoniker": "Q5_MedicalTest.cs",
@@ -87,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Q4_Appointment.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q4_Appointment.cs",
               "RelativeDocumentMoniker": "Q4_Appointment.cs",
@@ -99,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Q3_Hospital.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q3_Hospital.cs",
               "RelativeDocumentMoniker": "Q3_Hospital.cs",
@@ -107,12 +122,11 @@
               "RelativeToolTip": "Q3_Hospital.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:16:57.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:16:57.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -125,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Q1_Patient.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q1_Patient.cs",
               "RelativeDocumentMoniker": "Q1_Patient.cs",
@@ -133,12 +147,11 @@
               "RelativeToolTip": "Q1_Patient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T04:15:32.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T04:15:32.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Q7_Nurse.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q7_Nurse.cs",
               "RelativeDocumentMoniker": "Q7_Nurse.cs",
@@ -150,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Q2_Doctor.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY16_12_3_26_CSh2\\C#_Assignment_3_Class_Properties\\Q2_Doctor.cs",
               "RelativeDocumentMoniker": "Q2_Doctor.cs",

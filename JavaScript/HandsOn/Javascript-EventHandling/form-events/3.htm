@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter name"><br><br>
+        <select id="city">
+            <option value="">Select City</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+        const nameInput = document.getElementById("name");
+        const city = document.getElementById("city");
+        const form = document.getElementById("myForm");
+        const message = document.getElementById("message");
+
+        nameInput.addEventListener("focus", () => nameInput.style.backgroundColor = "yellow");
+
+        nameInput.addEventListener("blur", () => nameInput.style.backgroundColor = "white");
+
+        city.addEventListener("change", () => {
+            message.innerText = "City Selected: " + city.value;
+        });
+
+        nameInput.addEventListener("input", () => {
+            message.innerText = "Typing: " + nameInput.value;
+        });
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+            alert("Form Submitted Successfully!");
+        });
+    </script>
+
+</body>
+
+</html>
+<!-- Focus highlights field
+
+Change triggers when selecting city
+
+Input triggers on every character
+
+Submit prevented using preventDefault() -->

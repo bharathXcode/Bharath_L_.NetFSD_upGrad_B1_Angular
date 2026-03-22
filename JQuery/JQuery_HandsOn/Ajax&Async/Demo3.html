@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $.get("https://fakestoreapi.com/products", function (data) {
+
+            let html = "";
+
+            data.forEach(product => {
+                html += `
+            <div style="border:1px solid gray; padding:10px; margin:10px;">
+                <h4>${product.title}</h4>
+                <p>Price: $${product.price}</p>
+                <img src="${product.image}" width="80">
+            </div>
+        `;
+            });
+
+            $("#result").html(html);
+
+        });
+    </script>
+</head>
+
+<body>
+    <div id="result"></div>
+</body>
+
+</html>

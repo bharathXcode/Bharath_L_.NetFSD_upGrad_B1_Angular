@@ -1,0 +1,9 @@
+CREATE TRIGGER trg_InsertEmployeeLog
+ON Employees
+AFTER INSERT
+AS
+BEGIN
+SELECT * FROM INSERTED
+END
+
+INSERT INTO Employees VALUES ('Amit','Hr',45000)

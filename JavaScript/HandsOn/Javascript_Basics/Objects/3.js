@@ -1,0 +1,14 @@
+let obj = new String('Hello World');
+let txt = 'Javascript is easy to learn'
+//here txt will become object of string class
+console.log(txt[3]);
+console.log(txt.length);
+console.log(txt.toUpperCase());
+console.log(txt.toLowerCase());
+console.log(txt.charAt(6));
+console.log(txt.slice(0, 10));
+console.log(txt.substring(0, 10));
+txt = txt.replace('Javascript', 'React');
+console.log(txt);
+console.log(txt.indexOf('i'));
+console.log(txt.lastIndexOf('i'));

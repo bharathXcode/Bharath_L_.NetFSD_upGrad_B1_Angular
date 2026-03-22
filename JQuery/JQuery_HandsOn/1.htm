@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(() => {
+            //access the h1 element by id
+            var r = $('#h1').text();
+            alert(r);
+            //change the text of the h1 element
+            $('#h1').text('Hello, jQuery!');
+            //change the color of the h1 element
+            $('#h1').css('color', 'blue');
+        })
+    </script>
+</head>
+
+<body>
+    <h1 id="h1">jquery Demo</h1>
+</body>
+
+</html>

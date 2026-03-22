@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Delegation Demo</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        #taskList li {
+            padding: 8px;
+            margin: 5px 0;
+            background: #f0f0f0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .delete {
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Task Manager (Event Delegation)</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button id="addBtn">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+
+        const addBtn = document.getElementById("addBtn");
+        const taskInput = document.getElementById("taskInput");
+        const taskList = document.getElementById("taskList");
+
+
+        // Add new task dynamically
+        addBtn.addEventListener("click", function () {
+
+            if (taskInput.value.trim() === "") return;
+
+            const li = document.createElement("li");
+            li.innerHTML = `
+    <span>${taskInput.value}</span>
+    <span class="delete">❌</span>
+  `;
+
+            taskList.appendChild(li);
+            taskInput.value = "";
+
+        });
+
+
+        // 🔥 Event Delegation Here
+        taskList.addEventListener("click", function (event) {
+
+            // If delete button clicked
+            if (event.target.classList.contains("delete")) {
+                event.target.parentElement.remove();
+            }
+
+            // If task text clicked
+            else if (event.target.tagName === "SPAN") {
+                alert("Task Clicked: " + event.target.innerText);
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
