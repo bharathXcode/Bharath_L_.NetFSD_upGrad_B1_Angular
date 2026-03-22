@@ -1,0 +1,248 @@
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================= BODY ================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+
+
+/* ================= HEADER ================= */
+
+.header {
+    background: darkslategray;
+    color: white;
+    padding: 10px 0;
+}
+
+
+/* ================= LOGO ================= */
+
+.logo span {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* ================= NAVBAR ================= */
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: skyblue;
+}
+
+
+/* ================= MAIN LAYOUT ================= */
+
+.main {
+    display: flex;
+}
+
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+    width: 220px;
+    background: slategray;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.sidebar h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: skyblue;
+}
+
+
+/* ================= CONTENT ================= */
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+/* ================= CARDS ================= */
+
+.card {
+    border-radius: 14px;
+    border: none;
+    color: white;
+    transition: 0.3s;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Card color variations */
+.col-md-4:nth-child(1) .card {
+    background: linear-gradient(to right, royalblue, dodgerblue);
+}
+
+.col-md-4:nth-child(2) .card {
+    background: linear-gradient(to right, seagreen, mediumseagreen);
+}
+
+.col-md-4:nth-child(3) .card {
+    background: linear-gradient(to right, goldenrod, orange);
+}
+
+/* Card text */
+.card h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 14px;
+    opacity: 0.95;
+}
+
+
+/* ================= STATS (GLASS EFFECT) ================= */
+
+.stat-number {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 10px 18px;
+
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+
+    border-radius: 10px;
+
+    /* Glass effect */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.stat-number:hover {
+    transform: scale(1.08);
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.2s;
+}
+
+
+/* ================= ABOUT SECTION ================= */
+
+.about-section h2 {
+    font-weight: 700;
+}
+
+
+/* ================= TYPING TEXT ================= */
+
+#typing-title {
+    min-height: 60px;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+
+#typing-text {
+    min-height: 100px;
+    margin-top: 10px;
+
+    font-size: 20px;
+    line-height: 1.7;
+    color: dimgray;
+}
+
+
+/* ================= CURSOR ANIMATION ================= */
+
+#typing-title::after,
+#typing-text::after {
+    content: "|";
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+
+/* ================= IMAGE ================= */
+
+.about-img {
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+
+/* ================= CAROUSEL ================= */
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctors</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Page Specific Styles -->
+    <style>
+        /* Error message placeholder styling */
+        .error-text {
+            font-size: 12px;
+            min-height: 18px;
+            display: block;
+        }
+
+        /* Smooth scroll for sidebar navigation */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+
+            <!-- Logo -->
+            <div class="logo d-flex align-items-center"
+                 onclick="window.location.href='index.html'"
+                 style="cursor: pointer;">
+                <img src="assets/ab.png" width="40">
+                <span>Bharath's Healthcare</span>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="patients.html">Patients</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="appointments.html">Appointments</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ================= MAIN SECTION ================= -->
+    <div class="main">
+
+        <!-- ========== SIDEBAR ========== -->
+        <aside class="sidebar">
+            <h5>Dashboard</h5>
+
+            <!-- Navigation -->
+            <a href="#">Add Doctor</a>
+            <a href="#doctorList">View Doctors</a>
+        </aside>
+
+        <!-- ========== CONTENT AREA ========== -->
+        <div class="content">
+
+            <!-- Back Button -->
+            <button onclick="goBack()" class="btn btn-secondary mb-3">
+                ← Back
+            </button>
+
+            <!-- ===== Doctor Form ===== -->
+            <h3>Add / Edit Doctor</h3>
+
+            <!-- Name -->
+            <div class="mb-2">
+                <label>Name</label>
+                <input id="name" class="form-control">
+            </div>
+
+            <!-- Specialization (Dropdown + Manual Input) -->
+            <div class="mb-2">
+                <label>Specialization</label>
+
+                <!-- Predefined options -->
+                <select id="specDropdown" class="form-control mb-1"></select>
+
+                <!-- Custom input -->
+                <input id="specInput"
+                       class="form-control"
+                       placeholder="Or type specialization">
+            </div>
+
+            <!-- Date -->
+            <div class="mb-2">
+                <label>Date</label>
+                <input type="date" id="date" class="form-control">
+            </div>
+
+            <!-- Start Time -->
+            <div class="mb-2">
+                <label>Start Time</label>
+                <div class="d-flex gap-2">
+                    <select id="startHour" class="form-control">
+                        <option value="">HH</option>
+                    </select>
+
+                    <select id="startMin" class="form-control">
+                        <option value="">MM</option>
+                    </select>
+
+                    <select id="startAmpm" class="form-control">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- End Time -->
+            <div class="mb-2">
+                <label>End Time</label>
+                <div class="d-flex gap-2">
+                    <select id="endHour" class="form-control">
+                        <option value="">HH</option>
+                    </select>
+
+                    <select id="endMin" class="form-control">
+                        <option value="">MM</option>
+                    </select>
+
+                    <select id="endAmpm" class="form-control">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Save Button -->
+            <button onclick="addDoctor()" class="btn btn-primary mt-2">
+                Save
+            </button>
+
+            <!-- ===== Doctor List Section ===== -->
+            <h3 class="mt-4" id="doctorList">Doctor List</h3>
+
+            <!-- Search Bar -->
+            <div class="input-group mb-3 w-50">
+                <span class="input-group-text">🔍</span>
+                <input id="doctorSearch"
+                       class="form-control"
+                       placeholder="Search Doctor (Enter)">
+            </div>
+
+            <!-- Doctors Table -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Spec</th>
+                        <th>Date</th>
+                        <th>Slot</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tbl"></tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        © 2026 Bharath's Healthcare System. All rights reserved. | Privacy Policy | Terms of Service
+    </footer>
+
+    <!-- ================= SCRIPTS ================= -->
+
+    <!-- Data utilities -->
+    <script src="js/data.js"></script>
+
+    <!-- Common reusable functions -->
+    <script src="js/common.js"></script>
+
+    <!-- Doctors logic -->
+    <script src="js/doctors.js"></script>
+
+</body>
+</html>

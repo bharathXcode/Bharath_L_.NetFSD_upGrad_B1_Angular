@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patients</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery (used for search / interactions if needed) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Page Specific Styles -->
+    <style>
+        /* Error message styling below each field */
+        .error-text {
+            font-size: 12px;
+            min-height: 18px;
+            display: block;
+        }
+
+        /* Smooth scrolling for sidebar links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+
+            <!-- Logo -->
+            <div class="logo d-flex align-items-center"
+                 onclick="window.location.href='index.html'"
+                 style="cursor: pointer;">
+                <img src="assets/ab.png" width="40">
+                <span>Bharath's Healthcare</span>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="patients.html">Patients</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="appointments.html">Appointments</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ================= MAIN SECTION ================= -->
+    <div class="main">
+
+        <!-- ========== SIDEBAR ========== -->
+        <aside class="sidebar">
+            <h5>Dashboard</h5>
+
+            <!-- Navigation links -->
+            <a href="#">Add Patient</a>
+            <a href="#patientList">View Patients</a>
+        </aside>
+
+        <!-- ========== CONTENT AREA ========== -->
+        <div class="content">
+
+            <!-- Back Button -->
+            <button onclick="goBack()" class="btn btn-secondary mb-3">
+                ← Back
+            </button>
+
+            <!-- ===== Patient Form ===== -->
+            <h3>Add / Edit Patient</h3>
+
+            <!-- Name -->
+            <div class="mb-2">
+                <label>Name</label>
+                <input id="name" class="form-control" required>
+                <span class="text-danger error-text" id="nameErr"></span>
+            </div>
+
+            <!-- Age -->
+            <div class="mb-2">
+                <label>Age</label>
+                <input id="age" class="form-control" required>
+                <span class="text-danger error-text" id="ageErr"></span>
+            </div>
+
+            <!-- Gender -->
+            <div class="mb-2">
+                <label>Gender</label>
+                <select id="gender" class="form-control">
+                    <option value="">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+                <span class="text-danger error-text" id="genderErr"></span>
+            </div>
+
+            <!-- Phone -->
+            <div class="mb-2">
+                <label>Phone</label>
+                <input id="phone" class="form-control" required>
+                <span class="text-danger error-text" id="phoneErr"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-2">
+                <label>Email</label>
+                <input id="email" class="form-control" required>
+                <span class="text-danger error-text" id="emailErr"></span>
+            </div>
+
+            <!-- Medical Notes -->
+            <div class="mb-2">
+                <label>Medical Notes</label>
+                <textarea id="notes" class="form-control"></textarea>
+            </div>
+
+            <!-- Save Button -->
+           <button onclick="addPatient()" class="btn btn-primary mt-2" id="saveBtn">
+             Save
+           </button>
+
+            <!-- ===== Patient List Section ===== -->
+            <h3 class="mt-4" id="patientList">Patient List</h3>
+
+            <!-- Search Box -->
+            <div class="input-group mb-3 w-50">
+                <span class="input-group-text">🔍</span>
+                <input id="patientSearch"
+                       class="form-control"
+                       placeholder="Search Patient (Enter)">
+            </div>
+
+            <!-- Patient Table -->
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl"></tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        © 2026 Bharath's Healthcare System. All rights reserved. | Privacy Policy | Terms of Service
+    </footer>
+
+    <!-- ================= SCRIPTS ================= -->
+
+    <!-- Data handling (localStorage helpers) -->
+    <script src="js/data.js"></script>
+
+    <!-- Common reusable functions -->
+    <script src="js/common.js"></script>
+
+    <!-- Patients logic -->
+    <script src="js/patients.js"></script>
+
+</body>
+</html>
