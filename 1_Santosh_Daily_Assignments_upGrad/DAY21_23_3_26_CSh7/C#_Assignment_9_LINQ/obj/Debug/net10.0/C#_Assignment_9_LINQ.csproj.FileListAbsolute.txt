@@ -1,0 +1,15 @@
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\bin\Debug\net10.0\C#_Assignment_9_LINQ.exe
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\bin\Debug\net10.0\C#_Assignment_9_LINQ.deps.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\bin\Debug\net10.0\C#_Assignment_9_LINQ.runtimeconfig.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\bin\Debug\net10.0\C#_Assignment_9_LINQ.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\bin\Debug\net10.0\C#_Assignment_9_LINQ.pdb
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.AssemblyInfoInputs.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.AssemblyInfo.cs
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.csproj.CoreCompileInputs.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.sourcelink.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\refint\C#_Assignment_9_LINQ.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.pdb
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\C#_Assignment_9_LINQ.genruntimeconfig.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY21_23_3_26_CSh7\C#_Assignment_9_LINQ\obj\Debug\net10.0\ref\C#_Assignment_9_LINQ.dll
