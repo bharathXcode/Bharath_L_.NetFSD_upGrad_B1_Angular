@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_11_RazorBasicSyntax_DateTime\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{409F5D80-D6EB-27FF-9AF5-3A1EA2892093}|MVC_Assignment_11_RazorBasicSyntax_DateTime.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_11_razorbasicsyntax_datetime\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409F5D80-D6EB-27FF-9AF5-3A1EA2892093}|MVC_Assignment_11_RazorBasicSyntax_DateTime.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409F5D80-D6EB-27FF-9AF5-3A1EA2892093}|MVC_Assignment_11_RazorBasicSyntax_DateTime.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_11_razorbasicsyntax_datetime\\views\\home\\date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{409F5D80-D6EB-27FF-9AF5-3A1EA2892093}|MVC_Assignment_11_RazorBasicSyntax_DateTime.csproj|solutionrelative:views\\home\\date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_11_RazorBasicSyntax_DateTime\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_11_RazorBasicSyntax_DateTime\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T21:03:48.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Date.cshtml",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_11_RazorBasicSyntax_DateTime\\Views\\Home\\Date.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Date.cshtml",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_11_RazorBasicSyntax_DateTime\\Views\\Home\\Date.cshtml",
+              "RelativeToolTip": "Views\\Home\\Date.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T21:01:38.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

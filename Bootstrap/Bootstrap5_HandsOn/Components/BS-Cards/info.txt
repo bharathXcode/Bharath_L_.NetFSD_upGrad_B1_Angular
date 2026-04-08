@@ -1,2 +1,0 @@
-A card in Bootstrap 4 is a bordered box with some padding around its content. 
-It includes options for headers, footers, content, colors, etc.

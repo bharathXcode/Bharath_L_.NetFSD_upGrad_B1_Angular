@@ -1,0 +1,40 @@
+﻿@model MVC_Assignment_5_StudentManagement_CRUD_EFCore.Models.Student;
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h1>Edit Student</h1>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <td>
+                    <input type="hidden" name="Id" value="@Model.Id" />
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="Name" value="@Model.Name" />
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="Age" value="@Model.Age" />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="Email" value="@Model.Email" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" class="btn-primary" value="Update" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

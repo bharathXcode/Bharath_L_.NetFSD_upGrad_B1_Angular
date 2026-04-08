@@ -1,0 +1,31 @@
+﻿@model List<MVC_Assignment_6_StudentValidation_DataAnnotations.Models.Student>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <h1>Students Details</h1>
+    <a href="/Student/Create" class="btn-primary">➕ Add New Student</a>
+    <form method="post">
+        <table class="table">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var s in Model)
+                {
+                    <tr>
+                        <td>@s.Id</td>
+                        <td>@s.Name</td>
+                        <td>@s.Age</td>
+                        <td>@s.Email</td>
+                    </tr>
+                }
+            }
+        </table>
+    </form>
+</div>

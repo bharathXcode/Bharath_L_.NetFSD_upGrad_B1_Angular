@@ -1,0 +1,12 @@
+﻿@model MVC_3rd_Assignment_UserMgmAllCombined.ViewModel.UserViewModel;
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container">
+    <h2>Profile</h2>
+    <p>Name:@Model.Name</p>
+    <p>Email:@Model.Email</p>
+    <a href="/User/Edit">Edit Profile</a>
+    <a href="/User/Logout">Logout</a>
+</div>

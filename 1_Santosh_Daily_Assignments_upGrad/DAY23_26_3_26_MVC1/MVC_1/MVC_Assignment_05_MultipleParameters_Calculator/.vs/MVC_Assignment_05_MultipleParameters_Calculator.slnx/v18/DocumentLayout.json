@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_05_MultipleParameters_Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A0CB4E-8616-9087-4697-1C1F9CB067C5}|MVC_Assignment_05_MultipleParameters_Calculator.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_05_multipleparameters_calculator\\controllers\\mathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A0CB4E-8616-9087-4697-1C1F9CB067C5}|MVC_Assignment_05_MultipleParameters_Calculator.csproj|solutionrelative:controllers\\mathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathController.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_05_MultipleParameters_Calculator\\Controllers\\MathController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MathController.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_05_MultipleParameters_Calculator\\Controllers\\MathController.cs",
+              "RelativeToolTip": "Controllers\\MathController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T20:32:21.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

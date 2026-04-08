@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_2_student_modeldesign\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_2_student_modeldesign\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_2_student_modeldesign\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_2_student_modeldesign\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00786ADD-A981-47D6-8DC3-F294C935F155}|MVC_Assignment_2_Student_ModelDesign.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:32:41.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:30:17.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:29:30.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_2_Student_ModelDesign\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:25:46.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

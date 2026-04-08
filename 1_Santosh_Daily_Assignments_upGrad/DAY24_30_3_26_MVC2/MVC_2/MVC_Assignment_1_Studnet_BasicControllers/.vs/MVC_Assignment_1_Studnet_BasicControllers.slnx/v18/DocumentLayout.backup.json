@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_1_studnet_basiccontrollers\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_1_studnet_basiccontrollers\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|solutionrelative:views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day23_26_3_26_mvc1\\mvc_1\\mvc_assignment_1_studnet_basiccontrollers\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D6C3B6B-7D56-46A7-94FE-06FA2856F73C}|MVC_Assignment_1_Studnet_BasicControllers.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Details.cshtml",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:18:14.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-05T11:17:57.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY23_26_3_26_MVC1\\MVC_1\\MVC_Assignment_1_Studnet_BasicControllers\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:15:36.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

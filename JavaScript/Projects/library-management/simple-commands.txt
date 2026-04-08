@@ -1,6 +1,0 @@
-addBook "CleanCode" "Robert"
-addMember "Santosh"
-listBooks
-borrow Santosh <bookId>
-return Santosh <bookId>
-exit

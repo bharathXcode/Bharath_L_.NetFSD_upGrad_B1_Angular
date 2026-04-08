@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MVC_Assignment_09_DynamicTitle/1.0.0": {
+        "runtime": {
+          "MVC_Assignment_09_DynamicTitle.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVC_Assignment_09_DynamicTitle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿@model MVC_Assignment_7_StudentForm_HTMLHelpers.Models.Student;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <h2>Students</h2>
+    @using (Html.BeginForm())
+    {
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td>
+                    @Html.TextBoxFor(m => m.Name)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.Name, "", new { style = "color:red" })
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    @Html.TextAreaFor(m => m.Age)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.Age, "", new { style = "color:red" })
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    @Html.TextAreaFor(m => m.Email)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(m => m.Email, "", new { style = "color:red" })
+                </td>
+            </tr>
+            <tr colspan="2">
+                <td>
+                    <input type="submit" value="Submit" class="btn-primary" />
+                </td>
+            </tr>
+        </table>
+    }
+</div>
+

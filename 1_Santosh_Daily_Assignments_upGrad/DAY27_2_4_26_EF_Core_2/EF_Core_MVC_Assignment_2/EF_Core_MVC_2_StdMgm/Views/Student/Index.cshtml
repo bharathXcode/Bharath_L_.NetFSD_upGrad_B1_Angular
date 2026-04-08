@@ -1,0 +1,57 @@
+﻿@model IEnumerable<EFCore_Assignment_2.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>Courses</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+@foreach (var item in Model)
+{
+    <tr>
+        <!-- Name -->
+        <td>@item.Name</td>
+
+        <!-- Email -->
+        <td>@item.Email</td>
+
+        <!-- Courses -->
+        <td>
+            @if (item.Enrollments != null)
+            {
+                foreach (var e in item.Enrollments)
+                {
+                    @e.Course.Title <br />
+                }
+            }
+        </td>
+
+        <!-- Actions -->
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>

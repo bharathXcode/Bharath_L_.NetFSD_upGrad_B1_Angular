@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_10_multithreading\\q2_mt_bankaccount_withlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|solutionrelative:q2_mt_bankaccount_withlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_10_multithreading\\q2_mt_bankaccount_withoutlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|solutionrelative:q2_mt_bankaccount_withoutlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_10_multithreading\\q1_mt_parallelprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|solutionrelative:q1_mt_parallelprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_10_multithreading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31E40E4E-CF87-404A-AF9D-FFF4B2A4CE50}|C#_Assignment_10_MultiThreading.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Q2_MT_BankAccount_WithLock.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q2_MT_BankAccount_WithLock.cs",
+              "RelativeDocumentMoniker": "Q2_MT_BankAccount_WithLock.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q2_MT_BankAccount_WithLock.cs",
+              "RelativeToolTip": "Q2_MT_BankAccount_WithLock.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:52:31.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q2_MT_BankAccount_WithoutLock.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q2_MT_BankAccount_WithoutLock.cs",
+              "RelativeDocumentMoniker": "Q2_MT_BankAccount_WithoutLock.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q2_MT_BankAccount_WithoutLock.cs",
+              "RelativeToolTip": "Q2_MT_BankAccount_WithoutLock.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:49:26.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q1_MT_ParallelProcessing.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q1_MT_ParallelProcessing.cs",
+              "RelativeDocumentMoniker": "Q1_MT_ParallelProcessing.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Q1_MT_ParallelProcessing.cs",
+              "RelativeToolTip": "Q1_MT_ParallelProcessing.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:48:37.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_10_MultiThreading\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
