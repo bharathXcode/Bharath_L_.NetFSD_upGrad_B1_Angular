@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Profile Manager</title>
+<style>
+body{
+font-family:Arial;
+background:linear-gradient(120deg,#f6d365,#fda085);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.profile{
+background:white;
+padding:30px;
+border-radius:15px;
+width:340px;
+box-shadow:0 15px 35px rgba(0,0,0,0.3);
+text-align:center;
+}
+input{
+width:90%;
+padding:8px;
+margin:6px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+button{
+padding:8px 15px;
+margin-top:8px;
+border:none;
+background:#6c63ff;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+button:hover{background:#5146d8}
+#details{
+margin-top:15px;
+padding:10px;
+background:#f1f1f1;
+border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<div class="profile">
+<h3>Student Profile Manager</h3>
+
+<input type="text" id="nameInput" placeholder="Enter Name">
+<input type="number" id="rollInput" placeholder="Enter Roll No">
+<input type="number" id="marksInput" placeholder="Enter Marks">
+
+<button id="createBtn">Create Profile</button>
+
+<div id="details"></div>
+
+<input type="number" id="newMarks" placeholder="Update Marks">
+<button id="updateBtn">Update Marks</button>
+
+</div>
+
+<script>
+let student = {}
+
+function updateStudentProfile(studentObj){
+document.getElementById("details").innerHTML =
+"Name: " + studentObj.name + "<br>" +
+"Roll No: " + studentObj.rollNo + "<br>" +
+"Marks: " + studentObj.marks
+}
+
+function updateMarks(newMarks){
+student.marks = newMarks
+updateStudentProfile(student)
+}
+
+document.getElementById("createBtn").addEventListener("click", function(){
+
+student = {
+name: document.getElementById("nameInput").value,
+rollNo: document.getElementById("rollInput").value,
+marks: document.getElementById("marksInput").value
+}
+
+updateStudentProfile(student)
+
+})
+
+document.getElementById("updateBtn").addEventListener("click", function(){
+let marks = Number(document.getElementById("newMarks").value)
+updateMarks(marks)
+})
+
+</script>
+
+</body>
+</html>

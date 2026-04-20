@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 2</title>
+</head>
+<body>
+
+<table border="1" id="studentTable">
+<tr>
+<th>Name</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>John</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Emma</td>
+<td>92</td>
+</tr>
+</table>
+
+<script>
+const table = document.getElementById("studentTable");
+
+table.addEventListener("click", function (event) {
+if (event.target.tagName === "TD") {
+const row = event.target.parentNode;
+row.style.backgroundColor = "lightblue";
+const name = row.children[0].innerText;
+const marks = row.children[1].innerText;
+console.log(name, marks);
+}
+});
+</script>
+
+</body>
+</html>

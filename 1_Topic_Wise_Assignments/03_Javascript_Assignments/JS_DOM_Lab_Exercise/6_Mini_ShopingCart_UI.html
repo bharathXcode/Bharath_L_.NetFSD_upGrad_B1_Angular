@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 6</title>
+</head>
+<body>
+
+<h3>Products</h3>
+<div id="products"></div>
+
+<h3>Cart</h3>
+<ul id="cart"></ul>
+
+<h4>Total: ₹<span id="total">0</span></h4>
+
+<script>
+const productsData = [
+{ name: "Mobile", price: 10000 },
+{ name: "Laptop", price: 50000 },
+{ name: "Headphones", price: 2000 }
+];
+
+const productsDiv = document.getElementById("products");
+const cart = document.getElementById("cart");
+const totalSpan = document.getElementById("total");
+
+let total = 0;
+
+productsData.forEach(product => {
+const div = document.createElement("div");
+div.innerHTML =
+product.name + " - ₹" + product.price +
+' <button data-name="' + product.name +
+'" data-price="' + product.price + '">Add</button>';
+productsDiv.appendChild(div);
+});
+
+productsDiv.addEventListener("click", function (event) {
+if (event.target.tagName === "BUTTON") {
+const name = event.target.dataset.name;
+const price = Number(event.target.dataset.price);
+
+const li = document.createElement("li");
+li.textContent = name + " - ₹" + price;
+li.dataset.price = price;
+cart.appendChild(li);
+
+total += price;
+totalSpan.innerText = total;
+}
+});
+
+cart.addEventListener("click", function (event) {
+if (event.target.tagName === "LI") {
+const price = Number(event.target.dataset.price);
+total -= price;
+totalSpan.innerText = total;
+event.target.remove();
+}
+});
+</script>
+
+</body>
+</html>

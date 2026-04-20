@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Performance Analyzer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkgreen;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: lightyellow;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Performance Analyzer</h1>
+
+    <button onclick="passedStudents()">Passed Students</button>
+    <button onclick="distinctionStudents()">Distinction</button>
+    <button onclick="classAverage()">Class Average</button>
+    <button onclick="findTopper()">Topper</button>
+    <button onclick="countFailed()">Failed Count</button>
+    <button onclick="convertGrades()">Convert to Grades</button>
+    <button onclick="addRank()">Add Rank</button>
+    <button onclick="removeLowest()">Remove Lowest</button>
+    <button onclick="leaderboard()">Leaderboard</button>
+
+    <div class="output" id="result"></div>
+</div>
+
+<script>
+let students = [
+  { name: "Akhil", marks: 85 },
+  { name: "Priya", marks: 72 },
+  { name: "Ravi", marks: 90 },
+  { name: "Meena", marks: 45 },
+  { name: "Karan", marks: 30 }
+];
+
+function passedStudents(){
+    let passed = students.filter(s => s.marks >= 40);
+    displayTable(passed);
+}
+
+function distinctionStudents(){
+    let distinction = students.filter(s => s.marks >= 85);
+    displayTable(distinction);
+}
+
+function classAverage(){
+    let avg = students.reduce((sum, s) => sum + s.marks, 0) / students.length;
+    document.getElementById("result").innerHTML =
+        "<b>Class Average:</b> " + avg.toFixed(2);
+}
+
+function findTopper(){
+    let topper = students.reduce((prev, current) =>
+        (prev.marks > current.marks) ? prev : current
+    );
+    document.getElementById("result").innerHTML =
+        "<b>Topper:</b> " + topper.name + " (" + topper.marks + ")";
+}
+
+function countFailed(){
+    let failed = students.filter(s => s.marks < 40).length;
+    document.getElementById("result").innerHTML =
+        "<b>Failed Students Count:</b> " + failed;
+}
+
+function convertGrades(){
+    let graded = students.map(s => ({
+        ...s,
+        grade:
+            s.marks >= 85 ? "A" :
+            s.marks >= 60 ? "B" :
+            s.marks >= 40 ? "C" : "Fail"
+    }));
+    displayTable(graded);
+}
+
+/* BONUS */
+
+function addRank(){
+    let ranked = [...students]
+        .sort((a,b)=> b.marks - a.marks)
+        .map((s,index)=> ({...s, rank:index+1}));
+    displayTable(ranked);
+}
+
+function removeLowest(){
+    let lowest = students.reduce((prev, curr) =>
+        prev.marks < curr.marks ? prev : curr
+    );
+    students = students.filter(s => s !== lowest);
+    displayTable(students);
+}
+
+function leaderboard(){
+    let sorted = [...students].sort((a,b)=> b.marks - a.marks);
+    displayTable(sorted);
+}
+
+function displayTable(data){
+    let table = "<table><tr>";
+    Object.keys(data[0]).forEach(key=>{
+        table += "<th>" + key.toUpperCase() + "</th>";
+    });
+    table += "</tr>";
+
+    data.forEach(obj=>{
+        table += "<tr>";
+        Object.values(obj).forEach(val=>{
+            table += "<td>" + val + "</td>";
+        });
+        table += "</tr>";
+    });
+
+    table += "</table>";
+    document.getElementById("result").innerHTML = table;
+}
+</script>
+
+</body>
+</html>

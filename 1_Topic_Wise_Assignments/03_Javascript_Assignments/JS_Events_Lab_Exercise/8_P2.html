@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 8</title>
+<style>
+.highlight{background:yellow}
+</style>
+</head>
+<body>
+
+<input type="text" id="search">
+<ul id="list"></ul>
+<h3 id="no"></h3>
+
+<script>
+const names=["John","Emma","Olivia","Liam","Noah","Sophia","Ava","Isabella","Mason","Lucas","Mia","Ethan","Harper","Logan","James","Amelia","Elijah","Charlotte","Benjamin","Evelyn"]
+const list=document.getElementById("list")
+const search=document.getElementById("search")
+const no=document.getElementById("no")
+
+function render(arr,term=""){
+list.innerHTML=""
+if(arr.length===0){
+no.innerText="No Results"
+return
+}
+no.innerText=""
+arr.forEach(name=>{
+const li=document.createElement("li")
+if(term){
+const regex=new RegExp("("+term+")","gi")
+li.innerHTML=name.replace(regex,"<span class='highlight'>$1</span>")
+}else{
+li.innerText=name
+}
+list.appendChild(li)
+})
+}
+
+render(names)
+
+search.addEventListener("input",function(){
+const term=search.value.toLowerCase()
+const filtered=names.filter(n=>n.toLowerCase().includes(term))
+render(filtered,term)
+})
+</script>
+
+</body>
+</html>

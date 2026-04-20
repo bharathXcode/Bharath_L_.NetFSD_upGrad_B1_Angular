@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enhanced Shopping Cart</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 30px;
+}
+
+h2 {
+margin-bottom: 10px;
+}
+
+.product, .cart-item {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px 0;
+border-radius: 6px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+button {
+padding: 5px 10px;
+cursor: pointer;
+border: none;
+border-radius: 4px;
+}
+
+.add-btn {
+background-color: #28a745;
+color: white;
+}
+
+.qty-btn {
+background-color: #007bff;
+color: white;
+margin: 0 3px;
+}
+
+.remove-btn {
+background-color: red;
+color: white;
+}
+
+#cart {
+margin-top: 20px;
+}
+
+#totalBox {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.empty {
+color: gray;
+}
+</style>
+</head>
+<body>
+
+<h2>Products</h2>
+<div id="products"></div>
+
+<h2>Shopping Cart</h2>
+<div id="cart"></div>
+
+<div id="totalBox">Total: ₹<span id="total">0</span></div>
+
+<script>
+const productsData = [
+{ id: 1, name: "Mobile", price: 12000 },
+{ id: 2, name: "Laptop", price: 55000 },
+{ id: 3, name: "Headphones", price: 2500 },
+{ id: 4, name: "Smart Watch", price: 8000 }
+];
+
+const productsDiv = document.getElementById("products");
+const cartDiv = document.getElementById("cart");
+const totalSpan = document.getElementById("total");
+
+let cart = [];
+
+function renderProducts() {
+productsData.forEach(product => {
+const div = document.createElement("div");
+div.className = "product";
+div.innerHTML =
+"<span>" + product.name + " - ₹" + product.price + "</span>" +
+"<button class='add-btn' data-id='" + product.id + "'>Add</button>";
+productsDiv.appendChild(div);
+});
+}
+
+function renderCart() {
+cartDiv.innerHTML = "";
+
+if (cart.length === 0) {
+cartDiv.innerHTML = "<p class='empty'>Your cart is empty</p>";
+totalSpan.innerText = 0;
+return;
+}
+
+let total = 0;
+
+cart.forEach(item => {
+const subtotal = item.price * item.qty;
+total += subtotal;
+
+const div = document.createElement("div");
+div.className = "cart-item";
+div.innerHTML =
+"<span>" + item.name + " (₹" + item.price + ")</span>" +
+"<div>" +
+"<button class='qty-btn' data-action='decrease' data-id='" + item.id + "'>-</button>" +
+item.qty +
+"<button class='qty-btn' data-action='increase' data-id='" + item.id + "'>+</button>" +
+"<span> ₹" + subtotal + "</span>" +
+"<button class='remove-btn' data-action='remove' data-id='" + item.id + "'>Remove</button>" +
+"</div>";
+cartDiv.appendChild(div);
+});
+
+totalSpan.innerText = total;
+}
+
+productsDiv.addEventListener("click", function(e) {
+if (e.target.tagName === "BUTTON") {
+const id = Number(e.target.dataset.id);
+const product = productsData.find(p => p.id === id);
+const existing = cart.find(item => item.id === id);
+
+if (existing) {
+existing.qty++;
+} else {
+cart.push({ ...product, qty: 1 });
+}
+
+renderCart();
+}
+});
+
+cartDiv.addEventListener("click", function(e) {
+const id = Number(e.target.dataset.id);
+const action = e.target.dataset.action;
+const item = cart.find(i => i.id === id);
+
+if (!item) return;
+
+if (action === "increase") {
+item.qty++;
+}
+
+if (action === "decrease") {
+item.qty--;
+if (item.qty === 0) {
+cart = cart.filter(i => i.id !== id);
+}
+}
+
+if (action === "remove") {
+cart = cart.filter(i => i.id !== id);
+}
+
+renderCart();
+});
+
+renderProducts();
+renderCart();
+</script>
+
+</body>
+</html>

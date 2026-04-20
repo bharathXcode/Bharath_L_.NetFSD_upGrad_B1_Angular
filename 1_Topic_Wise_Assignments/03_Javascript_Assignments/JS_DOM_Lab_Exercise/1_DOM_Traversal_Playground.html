@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 1</title>
+</head>
+<body>
+
+<div id="container">
+<h2>Student List</h2>
+<ul id="students">
+<li>John</li>
+<li>David</li>
+<li>Emma</li>
+<li>Olivia</li>
+</ul>
+</div>
+
+<button id="highlightFirst">Highlight First</button>
+<button id="highlightLast">Highlight Last</button>
+<button id="highlightNext">Highlight Next of David</button>
+
+<script>
+const students = document.getElementById("students");
+
+document.getElementById("highlightFirst").onclick = function () {
+students.firstElementChild.style.color = "blue";
+};
+
+document.getElementById("highlightLast").onclick = function () {
+students.lastElementChild.style.backgroundColor = "yellow";
+};
+
+document.getElementById("highlightNext").onclick = function () {
+const david = students.children[1];
+const next = david.nextElementSibling;
+next.style.backgroundColor = "lightgreen";
+};
+
+console.log(students.parentNode);
+</script>
+
+</body>
+</html>

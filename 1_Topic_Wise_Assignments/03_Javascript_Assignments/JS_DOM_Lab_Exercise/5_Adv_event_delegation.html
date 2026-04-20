@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 5</title>
+</head>
+<body>
+
+<div id="dashboard">
+<button data-action="add">Add Box</button>
+<button data-action="remove">Remove Last</button>
+<button data-action="color">Change Color</button>
+<div id="boxContainer"></div>
+</div>
+
+<script>
+const dashboard = document.getElementById("dashboard");
+const boxContainer = document.getElementById("boxContainer");
+
+dashboard.addEventListener("click", function (event) {
+const action = event.target.dataset.action;
+
+if (action === "add") {
+const box = document.createElement("div");
+box.style.width = "100px";
+box.style.height = "100px";
+box.style.margin = "10px";
+box.style.backgroundColor = "gray";
+box.style.display = "inline-block";
+boxContainer.appendChild(box);
+}
+
+if (action === "remove") {
+const last = boxContainer.lastElementChild;
+if (last) last.remove();
+}
+
+if (action === "color") {
+for (let box of boxContainer.children) {
+box.style.backgroundColor =
+"rgb(" +
+Math.floor(Math.random() * 255) + "," +
+Math.floor(Math.random() * 255) + "," +
+Math.floor(Math.random() * 255) + ")";
+}
+}
+
+if (event.target.parentNode === boxContainer) {
+event.target.style.border =
+event.target.style.border === "3px solid black"
+? "none"
+: "3px solid black";
+}
+});
+</script>
+
+</body>
+</html>

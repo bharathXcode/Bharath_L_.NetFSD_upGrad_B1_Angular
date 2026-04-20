@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 7</title>
+<style>
+div{padding:30px;margin:10px}
+#grand{background:lightblue}
+#parent{background:lightgreen}
+#child{padding:10px}
+#output{margin-top:20px;border:1px solid black;padding:10px;height:150px;overflow:auto}
+</style>
+</head>
+<body>
+
+<button id="modeBtn">Switch to Capturing</button>
+<button id="stopBtn">Enable stopPropagation</button>
+<button id="clearBtn">Clear Output</button>
+
+<div id="grand">
+Grandparent
+<div id="parent">
+Parent
+<button id="child">Child</button>
+</div>
+</div>
+
+<div id="output"></div>
+
+<script>
+let useCapture=false
+let useStop=false
+
+const output=document.getElementById("output")
+const grand=document.getElementById("grand")
+const parent=document.getElementById("parent")
+const child=document.getElementById("child")
+
+function log(e){
+const line=document.createElement("div")
+line.innerText=e.currentTarget.id+" triggered"
+output.appendChild(line)
+
+if(useStop){
+e.stopPropagation()
+}
+}
+
+function attachListeners(){
+grand.replaceWith(grand.cloneNode(true))
+parent.replaceWith(parent.cloneNode(true))
+child.replaceWith(child.cloneNode(true))
+
+location.reload()
+}
+
+document.getElementById("modeBtn").onclick=function(){
+useCapture=!useCapture
+this.innerText=useCapture?"Switch to Bubbling":"Switch to Capturing"
+location.reload()
+}
+
+document.getElementById("stopBtn").onclick=function(){
+useStop=!useStop
+this.innerText=useStop?"Disable stopPropagation":"Enable stopPropagation"
+}
+
+document.getElementById("clearBtn").onclick=function(){
+output.innerHTML=""
+}
+
+grand.addEventListener("click",log,useCapture)
+parent.addEventListener("click",log,useCapture)
+child.addEventListener("click",log,useCapture)
+</script>
+
+</body>
+</html>

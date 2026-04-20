@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Grade Evaluator</title>
+</head>
+<body>
+
+<h2>Student Grade Evaluator</h2>
+
+<label>Enter Marks (0 - 100): </label>
+<input type="number" id="marks" min="0" max="100">
+<button id="checkBtn">Check Grade</button>
+
+<p id="result"></p>
+
+<script>
+const btn = document.getElementById("checkBtn")
+
+btn.addEventListener("click", function(){
+
+let input = document.getElementById("marks").value
+
+if(input === ""){
+document.getElementById("result").innerText = "Please enter marks"
+return
+}
+
+let marks = Number(input)
+
+if(marks < 0 || marks > 100){
+document.getElementById("result").innerText = "Marks must be between 0 and 100"
+return
+}
+
+let grade
+
+if(marks >= 75){
+grade = "Grade A"
+}
+else if(marks >= 60){
+grade = "Grade B"
+}
+else if(marks >= 40){
+grade = "Grade C"
+}
+else{
+grade = "Fail"
+}
+
+document.getElementById("result").innerHTML =
+"Marks: " + marks + "<br>Result: " + grade
+
+})
+</script>
+
+</body>
+</html>

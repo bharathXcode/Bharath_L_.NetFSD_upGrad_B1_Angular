@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Salary Analysis</title>
+</head>
+<body>
+
+    <h2>Employee Salary Analysis</h2>
+
+    <button onclick="analyzeSalary()">Analyze Salaries</button>
+
+    <div id="output"></div>
+
+    <script>
+        function analyzeSalary() {
+
+            let salaries = [25000, 30000, 28000, 40000, 35000];
+            let total = 0;
+
+            for (let i = 0; i < salaries.length; i++) {
+                total += salaries[i];
+            }
+
+            let average = total / salaries.length;
+            let aboveAverage = "";
+
+            for (let i = 0; i < salaries.length; i++) {
+                if (salaries[i] > average) {
+                    aboveAverage += salaries[i] + "<br>";
+                }
+            }
+
+            document.getElementById("output").innerHTML =
+                "Salaries: " + salaries + "<br><br>" +
+                "Total Salary: " + total + "<br>" +
+                "Average Salary: " + average + "<br><br>" +
+                "Salaries Above Average:<br>" + aboveAverage;
+        }
+    </script>
+
+</body>
+</html>

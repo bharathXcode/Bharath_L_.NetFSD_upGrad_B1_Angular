@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Greeting Generator</title>
+<style>
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#6a11cb,#2575fc);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:white;
+}
+.container{
+background:white;
+color:black;
+padding:30px;
+border-radius:12px;
+width:300px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+input{
+width:90%;
+padding:8px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+button{
+padding:8px 15px;
+background:#2575fc;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+button:hover{background:#1b5edb}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h2>Greeting Generator</h2>
+<input type="text" id="username" placeholder="Enter your name">
+<button id="greetBtn">Generate Greeting</button>
+<p id="greeting"></p>
+</div>
+
+<script>
+function generateGreeting(name){
+let message = "Hello, " + name + "! Welcome to our website."
+document.getElementById("greeting").innerText = message
+}
+
+document.getElementById("greetBtn").addEventListener("click", function(){
+let name = document.getElementById("username").value
+generateGreeting(name)
+})
+</script>
+
+</body>
+</html>

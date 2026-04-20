@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Validation</title>
+</head>
+<body>
+
+    <h2>Login Validation</h2>
+
+    <label>Username:</label>
+    <input type="text" id="username"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <button onclick="validateLogin()">Login</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        let correctUsername = "admin";
+        let correctPassword = "1234";
+        let attempts = 0;
+
+        function validateLogin() {
+
+            if (attempts >= 3) {
+                document.getElementById("result").innerHTML = "Account Locked";
+                return;
+            }
+
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username === correctUsername && password === correctPassword) {
+                document.getElementById("result").innerHTML = "Login Successful";
+            } else {
+                attempts++;
+                document.getElementById("result").innerHTML = 
+                    "Invalid Credentials. Attempts left: " + (3 - attempts);
+
+                if (attempts === 3) {
+                    document.getElementById("result").innerHTML = "Account Locked";
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 13</title>
+<style>
+.column{width:30%;float:left;border:1px solid black;padding:10px;min-height:250px;margin-right:10px}
+.card{background:lightgray;margin:5px;padding:8px;cursor:pointer}
+.header{font-weight:bold}
+</style>
+</head>
+<body>
+
+<input type="text" id="task">
+<button id="add">Add Card</button>
+
+<div class="column" id="todo">
+<div class="header">To Do (<span>0</span>)</div>
+</div>
+
+<div class="column" id="progress">
+<div class="header">In Progress (<span>0</span>)</div>
+</div>
+
+<div class="column" id="done">
+<div class="header">Done (<span>0</span>)</div>
+</div>
+
+<script>
+const columns=["todo","progress","done"]
+
+function updateCounts(){
+columns.forEach(id=>{
+document.querySelector("#"+id+" span").innerText=
+document.querySelectorAll("#"+id+" .card").length
+})
+}
+
+document.getElementById("add").addEventListener("click",function(){
+const val=document.getElementById("task").value.trim()
+if(val!==""){
+const card=document.createElement("div")
+card.className="card"
+card.innerText=val
+document.getElementById("todo").appendChild(card)
+document.getElementById("task").value=""
+updateCounts()
+}
+})
+
+document.body.addEventListener("click",function(e){
+if(e.target.classList.contains("card")){
+const parent=e.target.parentNode.id
+if(parent==="todo"){
+document.getElementById("progress").appendChild(e.target)
+}
+else if(parent==="progress"){
+document.getElementById("done").appendChild(e.target)
+}
+updateCounts()
+}
+})
+
+document.body.addEventListener("dblclick",function(e){
+if(e.target.classList.contains("card")){
+e.target.remove()
+updateCounts()
+}
+})
+</script>
+
+</body>
+</html>

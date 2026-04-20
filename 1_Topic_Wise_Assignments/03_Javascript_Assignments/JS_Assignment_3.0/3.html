@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Location Logger</title>
+<style>
+body{font-family:Arial;text-align:center;padding:40px}
+ul{list-style:none;padding:0}
+</style>
+</head>
+<body onload="loadHistory()">
+
+<h2>Location Logger</h2>
+<button onclick="getLocation()">Get My Location</button>
+
+<p id="current"></p>
+
+<h3>Last 5 Locations</h3>
+<ul id="history"></ul>
+
+<script>
+function getLocation(){
+if(!navigator.geolocation){
+alert("Geolocation not supported")
+return
+}
+navigator.geolocation.getCurrentPosition(success,error,{timeout:10000})
+}
+
+function success(position){
+let lat=position.coords.latitude
+let lon=position.coords.longitude
+
+document.getElementById("current").innerText=
+"Latitude: "+lat+" | Longitude: "+lon
+
+let history=JSON.parse(localStorage.getItem("locations")) || []
+
+history.unshift({
+lat:lat,
+lon:lon,
+time:new Date().toLocaleString()
+})
+
+if(history.length>5){
+history=history.slice(0,5)
+}
+
+localStorage.setItem("locations",JSON.stringify(history))
+
+loadHistory()
+}
+
+function error(err){
+if(err.code===1){
+alert("Permission Denied")
+}
+else if(err.code===2){
+alert("Location Unavailable")
+}
+else if(err.code===3){
+alert("Request Timeout")
+}
+else{
+alert("Unknown Error")
+}
+}
+
+function loadHistory(){
+let history=JSON.parse(localStorage.getItem("locations")) || []
+let list=document.getElementById("history")
+list.innerHTML=""
+
+history.forEach(function(loc){
+let li=document.createElement("li")
+li.innerText=loc.time+" → "+loc.lat+", "+loc.lon
+list.appendChild(li)
+})
+}
+</script>
+
+</body>
+</html>
