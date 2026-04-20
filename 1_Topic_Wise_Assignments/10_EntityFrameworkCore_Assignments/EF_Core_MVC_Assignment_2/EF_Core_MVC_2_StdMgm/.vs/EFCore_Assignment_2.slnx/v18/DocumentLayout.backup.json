@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260407191433_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260407191433_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\views\\enrollment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:views\\enrollment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\migrations\\20260402215219_addrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:migrations\\20260402215219_addrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\migrations\\20260402214824_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:migrations\\20260402214824_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|d:\\upgrad\\efcore_assignments\\efcore_assignment_2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA65925D-5302-C8EE-F60F-412BC26E2F93}|EFCore_Assignment_2.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T19:21:37.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:34:44.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-02T21:37:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:57:01.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T22:35:32.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IStudentRepository.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T19:20:50.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260407191433_InitialCreate1.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260407191433_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260407191433_InitialCreate1.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260407191433_InitialCreate1.cs",
+              "RelativeToolTip": "Migrations\\20260407191433_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T19:14:33.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T22:13:22.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAA5wI8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T22:17:45.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T22:04:02.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Enrollment\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollment\\Create.cshtml",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Views\\Enrollment\\Create.cshtml",
+              "RelativeToolTip": "Views\\Enrollment\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T22:28:00.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:45:39.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260402215219_AddRelationships.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260402215219_AddRelationships.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260402215219_AddRelationships.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260402215219_AddRelationships.cs",
+              "RelativeToolTip": "Migrations\\20260402215219_AddRelationships.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:52:19.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260402214824_InitialCreate.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260402214824_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260402214824_InitialCreate.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Migrations\\20260402214824_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260402214824_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:48:25.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:44:58.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:36:52.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\UpGrad\\EFCore_Assignments\\EFCore_Assignment_2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T21:33:47.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

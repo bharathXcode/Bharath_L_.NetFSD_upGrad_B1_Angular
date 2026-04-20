@@ -1,0 +1,59 @@
+﻿@model IEnumerable<EF_Core_MVC_1_Account.Entities.Account>
+
+@{
+    ViewData["Title"] = "Account List";
+}
+
+<h1>Account List</h1>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Account</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.AccountId)</th>
+            <th>@Html.DisplayNameFor(model => model.AccountType)</th>
+            <th>@Html.DisplayNameFor(model => model.Customer)</th>
+            <th>@Html.DisplayNameFor(model => model.Balance)</th>
+            <th>@Html.DisplayNameFor(model => model.Brach)</th>
+            <th>@Html.DisplayNameFor(model => model.CreateDate)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.AccountId)</td>
+                <td>@Html.DisplayFor(modelItem => item.AccountType)</td>
+                <td>@Html.DisplayFor(modelItem => item.Customer)</td>
+                <td>@item.Balance.ToString("C")</td>
+                <td>@Html.DisplayFor(modelItem => item.Brach)</td>
+                <td>@item.CreateDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.AccountId" class="btn btn-info btn-sm">Details</a>
+                    <a asp-action="Edit" asp-route-id="@item.AccountId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.AccountId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

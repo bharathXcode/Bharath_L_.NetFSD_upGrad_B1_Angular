@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PassengerService.Controllers.PassengerController",
+    "Method": "AddPassenger",
+    "RelativePath": "api/Passenger/AddPassenger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PassengerService.DTOs.CreatePassengerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassengerService.Controllers.PassengerController",
+    "Method": "GetPassengers",
+    "RelativePath": "api/Passenger/GetAllPassengers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

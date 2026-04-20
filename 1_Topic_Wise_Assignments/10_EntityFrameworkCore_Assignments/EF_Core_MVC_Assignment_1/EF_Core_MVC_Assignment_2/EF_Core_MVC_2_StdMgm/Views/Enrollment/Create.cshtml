@@ -1,0 +1,32 @@
+﻿@model EFCore_Assignment_2.Models.Enrollment
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Enrollment</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Student</label>
+        <select asp-for="StudentId" asp-items="ViewBag.StudentId"></select>
+    </div>
+
+    <div>
+        <label>Course</label>
+        <select asp-for="CourseId" asp-items="ViewBag.CourseId"></select>
+    </div>
+
+    <div>
+        <label>Grade</label>
+        <input asp-for="Grade" />
+    </div>
+
+    <button type="submit">Create</button>
+
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
