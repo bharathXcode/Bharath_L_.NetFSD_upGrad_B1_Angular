@@ -1,0 +1,825 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\database\\healthcaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:database\\healthcaredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\doctors\\doctorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\doctors\\doctorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\doctors\\doctorreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\doctors\\doctorreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414171055_IntialDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260414171055_IntialDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414170750_IntialDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260414170750_IntialDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\appointments\\cancelappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\appointments\\cancelappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\appointments\\appointmentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\appointments\\appointmentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\appointments\\appointmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\appointments\\appointmentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\asp.net_core_assignment_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:asp.net_core_assignment_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\entities\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:entities\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:entities\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\prescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\iprescriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\patients\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\patients\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\services\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:services\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\prescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\iprescriptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:repositories\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\prescriptions\\prescriptionreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\prescriptions\\prescriptionreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\prescriptions\\prescriptioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\prescriptions\\prescriptioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\patients\\patientreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\patients\\patientreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|d:\\cts .net fsd angular\\pavan-malleswararao_.netfsd_upgrad_b1_angular\\asp.net_core_api_assignment\\asp.net_core_assignment_1\\dtos\\patients\\patientcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674C4408-FFA2-5FEA-A13F-FF9941E1C416}|Asp.net_Core_Assignment_1.csproj|solutionrelative:dtos\\patients\\patientcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T10:13:43.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorCreateDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Doctors\\DoctorCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Doctors\\DoctorCreateDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Doctors\\DoctorCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Doctors\\DoctorCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:32:39.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "Entities\\Doctor.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Doctor.cs",
+              "RelativeToolTip": "Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:25:05.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260414171055_IntialDBCreate.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414171055_IntialDBCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260414171055_IntialDBCreate.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414171055_IntialDBCreate.cs",
+              "RelativeToolTip": "Migrations\\20260414171055_IntialDBCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:10:55.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260414170750_IntialDBCreate.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414170750_IntialDBCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260414170750_IntialDBCreate.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Migrations\\20260414170750_IntialDBCreate.cs",
+              "RelativeToolTip": "Migrations\\20260414170750_IntialDBCreate.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:07:51.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CancelAppointmentDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\CancelAppointmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Appointments\\CancelAppointmentDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\CancelAppointmentDto.cs",
+              "RelativeToolTip": "DTOs\\Appointments\\CancelAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:00:35.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DoctorRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\DoctorRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:29:52.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HealthCareDBCOntext.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Database\\HealthCareDBCOntext.cs",
+              "RelativeDocumentMoniker": "Database\\HealthCareDBCOntext.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Database\\HealthCareDBCOntext.cs",
+              "RelativeToolTip": "Database\\HealthCareDBCOntext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:17:51.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorReadDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Doctors\\DoctorReadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Doctors\\DoctorReadDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Doctors\\DoctorReadDto.cs",
+              "RelativeToolTip": "DTOs\\Doctors\\DoctorReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:40:18.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:34:50.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:13:36.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentReadDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\AppointmentReadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Appointments\\AppointmentReadDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\AppointmentReadDto.cs",
+              "RelativeToolTip": "DTOs\\Appointments\\AppointmentReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:54:19.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentCreateDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\AppointmentCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Appointments\\AppointmentCreateDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Appointments\\AppointmentCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Appointments\\AppointmentCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:43:47.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "Entities\\Appointment.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Appointment.cs",
+              "RelativeToolTip": "Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T10:09:17.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Asp.net_Core_Assignment_1.csproj",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Asp.net_Core_Assignment_1.csproj",
+              "RelativeDocumentMoniker": "Asp.net_Core_Assignment_1.csproj",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Asp.net_Core_Assignment_1.csproj",
+              "RelativeToolTip": "Asp.net_Core_Assignment_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T15:13:40.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "Entities\\AppointmentStatus.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\AppointmentStatus.cs",
+              "RelativeToolTip": "Entities\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T10:25:07.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppointmentRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\AppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:56:01.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAppointmentRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IAppointmentRepository.cs",
+              "RelativeToolTip": "Repositories\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:46:20.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionController.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:13:26.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Prescription.cs",
+              "RelativeDocumentMoniker": "Entities\\Prescription.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Prescription.cs",
+              "RelativeToolTip": "Entities\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T10:26:42.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "Entities\\Patient.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Entities\\Patient.cs",
+              "RelativeToolTip": "Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:10:50.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T16:09:09.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwBsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:26:41.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:20:31.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:35:37.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PrescriptionService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\PrescriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\PrescriptionService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\PrescriptionService.cs",
+              "RelativeToolTip": "Services\\PrescriptionService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAawDsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:10:47.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPrescriptionService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IPrescriptionService.cs",
+              "RelativeDocumentMoniker": "Services\\IPrescriptionService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IPrescriptionService.cs",
+              "RelativeToolTip": "Services\\IPrescriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:08:26.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\IAppointmentService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IAppointmentService.cs",
+              "RelativeToolTip": "Services\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:31:58.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\DoctorService.cs",
+              "RelativeToolTip": "Services\\DoctorService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:15:01.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Services\\IDoctorService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IDoctorService.cs",
+              "RelativeToolTip": "Services\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:11:57.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:49:10.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Services\\IPatientService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IPatientService.cs",
+              "RelativeToolTip": "Services\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:46:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:29:11.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PatientUpdateDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Patients\\PatientUpdateDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\Patients\\PatientUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:17:01.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\IJwtTokenService.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Services\\IJwtTokenService.cs",
+              "RelativeToolTip": "Services\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T10:26:36.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PrescriptionRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\PrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PrescriptionRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\PrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\PrescriptionRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T04:14:28.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IPrescriptionRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPrescriptionRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IPrescriptionRepository.cs",
+              "RelativeToolTip": "Repositories\\IPrescriptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T04:07:32.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PatientRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:26:06.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDoctorRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IDoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDoctorRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IDoctorRepository.cs",
+              "RelativeToolTip": "Repositories\\IDoctorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:27:26.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPatientRepository.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Repositories\\IPatientRepository.cs",
+              "RelativeToolTip": "Repositories\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:21:09.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:17:28.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\ConflictException.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "Exceptions\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:15:38.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\BadRequestException.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:12:47.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:11:47.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\LoginResponseDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:09:27.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Auth\\LoginRequestDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeToolTip": "DTOs\\Auth\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:08:09.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PrescriptionReadDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Prescriptions\\PrescriptionReadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Prescriptions\\PrescriptionReadDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Prescriptions\\PrescriptionReadDto.cs",
+              "RelativeToolTip": "DTOs\\Prescriptions\\PrescriptionReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:05:42.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PrescriptionCreateDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Prescriptions\\PrescriptionCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Prescriptions\\PrescriptionCreateDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Prescriptions\\PrescriptionCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Prescriptions\\PrescriptionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:02:21.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PatientReadDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientReadDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Patients\\PatientReadDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientReadDto.cs",
+              "RelativeToolTip": "DTOs\\Patients\\PatientReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:21:16.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PatientCreateDto.cs",
+              "DocumentMoniker": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Patients\\PatientCreateDto.cs",
+              "ToolTip": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\Asp.Net_Core_Api_Assignment\\Asp.net_Core_Assignment_1\\DTOs\\Patients\\PatientCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Patients\\PatientCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:08:31.237Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
