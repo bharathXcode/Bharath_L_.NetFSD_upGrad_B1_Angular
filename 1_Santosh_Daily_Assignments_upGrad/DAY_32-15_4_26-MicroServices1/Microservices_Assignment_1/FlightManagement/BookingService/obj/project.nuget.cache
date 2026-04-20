@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sf8ORVzenLA=",
+  "success": true,
+  "projectFilePath": "D:\\CTS .net FSD Angular\\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\\MicroServicesAssignment\\Microservices_Assignment_1\\FlightManagement\\BookingService\\BookingService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MYPC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\MYPC\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
