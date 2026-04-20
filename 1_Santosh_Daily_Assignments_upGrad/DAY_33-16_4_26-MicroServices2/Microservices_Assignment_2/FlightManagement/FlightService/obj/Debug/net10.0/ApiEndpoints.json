@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "FlightService.Controllers.FlightController",
+    "Method": "AddFlight",
+    "RelativePath": "api/Flight/AddFlight",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flight",
+        "Type": "FlightService.DTOs.CreateFlightDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlightService.Controllers.FlightController",
+    "Method": "DeleteFlight",
+    "RelativePath": "api/Flight/DeleteFlight",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlightService.Controllers.FlightController",
+    "Method": "GetFlights",
+    "RelativePath": "api/Flight/GetAllFlights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlightService.Controllers.FlightController",
+    "Method": "GetFlight",
+    "RelativePath": "api/Flight/GetFlightById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FlightService.Controllers.FlightController",
+    "Method": "UpdateFlight",
+    "RelativePath": "api/Flight/UpdateFlight/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "flight",
+        "Type": "FlightService.DTOs.UpdateFlightDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

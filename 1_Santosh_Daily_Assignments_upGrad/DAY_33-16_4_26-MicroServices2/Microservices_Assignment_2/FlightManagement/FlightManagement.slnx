@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BookingService/BookingService.csproj" Id="f813f8af-791e-446d-8fea-eb2b69f02a20" />
+  <Project Path="FlightService/FlightService.csproj" Id="5c801b49-ed6d-4461-b70f-4d7dda6dd463" />
+  <Project Path="Gateway/Gateway.csproj" Id="a9adb06c-1ce8-4833-a4e3-ed50e05e7e76" />
+  <Project Path="PassengerService/PassengerService.csproj" Id="4ea6e0d1-c6e1-4282-b6dd-71cca21e0a89" />
+</Solution>

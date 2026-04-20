@@ -1,0 +1,79 @@
+{
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:5120"
+    },
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Flight",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Flight",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5199
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Flight/{pattern}",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Flight/{pattern}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5199
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Booking",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Booking",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5234
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Booking/{pattern}",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Booking/{pattern}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5234
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Passenger",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Passenger",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5090
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/FlightManagement/Passenger/{pattern}",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamPathTemplate": "/api/Passenger/{pattern}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5090
+                }
+            ]
+        }
+    ]
+}
