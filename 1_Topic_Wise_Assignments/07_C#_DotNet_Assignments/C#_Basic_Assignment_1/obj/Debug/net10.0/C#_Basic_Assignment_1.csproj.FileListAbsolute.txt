@@ -1,0 +1,15 @@
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.AssemblyInfoInputs.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.AssemblyInfo.cs
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.csproj.CoreCompileInputs.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.sourcelink.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\bin\Debug\net10.0\C#_Basic_Assignment_1.exe
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\bin\Debug\net10.0\C#_Basic_Assignment_1.deps.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\bin\Debug\net10.0\C#_Basic_Assignment_1.runtimeconfig.json
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\bin\Debug\net10.0\C#_Basic_Assignment_1.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\bin\Debug\net10.0\C#_Basic_Assignment_1.pdb
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\refint\C#_Basic_Assignment_1.dll
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.pdb
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\C#_Basic_Assignment_1.genruntimeconfig.cache
+E:\CTS_upGrad_Training\1_Santosh_Daily_Assignments_upGrad\DAY15_11_3_26_CSh1\C#_Basic_Assignment_1\obj\Debug\net10.0\ref\C#_Basic_Assignment_1.dll

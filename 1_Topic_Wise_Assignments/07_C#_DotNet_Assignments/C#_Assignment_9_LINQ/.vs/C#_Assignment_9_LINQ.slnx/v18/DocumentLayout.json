@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q11_l4_complexdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q11_l4_complexdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q10_l4_customsorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q10_l4_customsorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q9_l3_ecommercescenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q9_l3_ecommercescenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q8_l3_multilevelgrouping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q8_l3_multilevelgrouping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q7_l3_productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q7_l3_productinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q6_l2_duplicatehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q6_l2_duplicatehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q4_l2_employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q4_l2_employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q5_l2_orderscustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q5_l2_orderscustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q3_l1_stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q3_l1_stringoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\c#_assignment_9_linq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:c#_assignment_9_linq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q2_l1_numberscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q2_l1_numberscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\q1_l1_studentfiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:q1_l1_studentfiltering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|e:\\cts_upgrad_training\\1_santosh_daily_assignments_upgrad\\day21_23_3_26_csh7\\c#_assignment_9_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0FC9E2-F834-43AF-B697-FA755F98D1CD}|C#_Assignment_9_LINQ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q11_L4_ComplexDashboard.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q11_L4_ComplexDashboard.cs",
+              "RelativeDocumentMoniker": "Q11_L4_ComplexDashboard.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q11_L4_ComplexDashboard.cs",
+              "RelativeToolTip": "Q11_L4_ComplexDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:40:24.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q10_L4_CustomSorting.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q10_L4_CustomSorting.cs",
+              "RelativeDocumentMoniker": "Q10_L4_CustomSorting.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q10_L4_CustomSorting.cs",
+              "RelativeToolTip": "Q10_L4_CustomSorting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:37:45.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q9_L3_EcommerceScenario.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q9_L3_EcommerceScenario.cs",
+              "RelativeDocumentMoniker": "Q9_L3_EcommerceScenario.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q9_L3_EcommerceScenario.cs",
+              "RelativeToolTip": "Q9_L3_EcommerceScenario.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:35:49.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q8_L3_MultiLevelGrouping.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q8_L3_MultiLevelGrouping.cs",
+              "RelativeDocumentMoniker": "Q8_L3_MultiLevelGrouping.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q8_L3_MultiLevelGrouping.cs",
+              "RelativeToolTip": "Q8_L3_MultiLevelGrouping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:34:58.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q7_L3_ProductInventory.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q7_L3_ProductInventory.cs",
+              "RelativeDocumentMoniker": "Q7_L3_ProductInventory.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q7_L3_ProductInventory.cs",
+              "RelativeToolTip": "Q7_L3_ProductInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:31:35.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q6_L2_DuplicateHandling.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q6_L2_DuplicateHandling.cs",
+              "RelativeDocumentMoniker": "Q6_L2_DuplicateHandling.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q6_L2_DuplicateHandling.cs",
+              "RelativeToolTip": "Q6_L2_DuplicateHandling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:29:12.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Q5_L2_OrdersCustomers.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q5_L2_OrdersCustomers.cs",
+              "RelativeDocumentMoniker": "Q5_L2_OrdersCustomers.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q5_L2_OrdersCustomers.cs",
+              "RelativeToolTip": "Q5_L2_OrdersCustomers.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:27:22.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q4_L2_EmployeeManagement.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q4_L2_EmployeeManagement.cs",
+              "RelativeDocumentMoniker": "Q4_L2_EmployeeManagement.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q4_L2_EmployeeManagement.cs",
+              "RelativeToolTip": "Q4_L2_EmployeeManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:25:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Q3_L1_StringOperations.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q3_L1_StringOperations.cs",
+              "RelativeDocumentMoniker": "Q3_L1_StringOperations.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q3_L1_StringOperations.cs",
+              "RelativeToolTip": "Q3_L1_StringOperations.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:23:46.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "C#_Assignment_9_LINQ",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\C#_Assignment_9_LINQ.csproj",
+              "RelativeDocumentMoniker": "C#_Assignment_9_LINQ.csproj",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\C#_Assignment_9_LINQ.csproj",
+              "RelativeToolTip": "C#_Assignment_9_LINQ.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-23T10:20:59.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Q2_L1_NumbersCollection.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q2_L1_NumbersCollection.cs",
+              "RelativeDocumentMoniker": "Q2_L1_NumbersCollection.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q2_L1_NumbersCollection.cs",
+              "RelativeToolTip": "Q2_L1_NumbersCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:20:34.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Q1_L1_StudentFiltering.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q1_L1_StudentFiltering.cs",
+              "RelativeDocumentMoniker": "Q1_L1_StudentFiltering.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Q1_L1_StudentFiltering.cs",
+              "RelativeToolTip": "Q1_L1_StudentFiltering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:19:42.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\CTS_upGrad_Training\\1_Santosh_Daily_Assignments_upGrad\\DAY21_23_3_26_CSh7\\C#_Assignment_9_LINQ\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:19:00.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
