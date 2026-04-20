@@ -1,0 +1,31 @@
+﻿@model MVC_Assignment_2_Student_ModelDesign.Models.Student;
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="container">
+    <h1>Student Details</h1>
+    <div class="container">
+        <p>Id: @Model.Id</p>
+        <p>Name: @Model.Name</p>
+        <p>Age: @Model.Age</p>
+        <p>Email: @Model.Email</p>
+    </div>
+    <div class="container">
+        <h1>Courses</h1>
+        @if (Model.Courses != null && Model.Courses.Count > 0)
+        {
+            <ul>
+                @foreach (var course in Model.Courses)
+                {
+                    <li>@course.CourseName</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No Course assigned</p>
+        }
+        <br />
+
+    </div>
+</div>

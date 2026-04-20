@@ -1,0 +1,17 @@
+﻿@model MVC_Assignment_15_MiniProject_StudentMGM.Models.Student
+
+<h2>Student Details</h2>
+
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Age:</strong> @Model.Age</p>
+
+<p>@ViewData["Message"]</p>
+
+@if (Model.Age > 18)
+{
+    <p style="color:green;">Eligible to Vote</p>
+}
+else
+{
+    <p style="color:red;">Not Eligible to Vote</p>
+}

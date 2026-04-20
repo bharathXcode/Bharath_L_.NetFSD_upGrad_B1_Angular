@@ -1,0 +1,56 @@
+﻿@model MVC_3rd_Assignment_UserMgmAllCombined.Models.User;
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <h2>Register</h2>
+    <form asp-action="Register">
+        <table class="table">
+            <tr>
+                
+                <td>
+                    <input asp-for="Name" placeholder="Name" />
+                </td>
+                <td>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input asp-for="Email" placeholder="Email" />
+                </td>
+                <td>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input asp-for="Password" placeholder="Password" />
+                </td>
+                <td>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+               
+                <td>
+                    <input asp-for="ConfirmPassword" placeholder="Confirm Password" />
+                </td>
+                <td>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" class="btn-primary">Register</button>
+                </td>
+            </tr>
+            <tr>
+                <a href="/User/Login">Login</a>
+            </tr>
+        </table>
+    </form>
+</div>

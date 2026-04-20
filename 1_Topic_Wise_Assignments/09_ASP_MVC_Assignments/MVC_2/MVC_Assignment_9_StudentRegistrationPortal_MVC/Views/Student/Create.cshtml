@@ -1,0 +1,44 @@
+﻿@model MVC_Assignment_9_StudentRegistrationPortal_MVC.Models.Student;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <form asp-action="Create" method="post">
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" asp-for="Name" />
+                </td>
+                <td>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" asp-for="Age" />
+                </td>
+                <td>
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" asp-for="Email" />
+                </td>
+                <td>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Add" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.deps.json
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.runtimeconfig.json
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\bin\Debug\net10.0\MovieApp.Data.pdb
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.csproj.AssemblyReference.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.AssemblyInfoInputs.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.AssemblyInfo.cs
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.csproj.CoreCompileInputs.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.sourcelink.json
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\refint\MovieApp.Data.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.pdb
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\MovieApp.Data.genruntimeconfig.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Data\obj\Debug\net10.0\ref\MovieApp.Data.dll

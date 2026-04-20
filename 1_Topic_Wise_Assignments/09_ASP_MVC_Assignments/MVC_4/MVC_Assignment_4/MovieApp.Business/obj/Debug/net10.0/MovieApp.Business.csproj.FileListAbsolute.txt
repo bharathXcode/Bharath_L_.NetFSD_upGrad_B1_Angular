@@ -1,0 +1,16 @@
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.deps.json
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Business.pdb
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Data.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\bin\Debug\net10.0\MovieApp.Data.pdb
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.csproj.AssemblyReference.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.AssemblyInfoInputs.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.AssemblyInfo.cs
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.csproj.CoreCompileInputs.cache
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.sourcelink.json
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.EB28DBE0.Up2Date
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\refint\MovieApp.Business.dll
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\MovieApp.Business.pdb
+D:\CTS .net FSD Angular\Pavan-Malleswararao_.NetFSD_upGrad_B1_Angular\Asp.Net Core\MVC_Assignment_4\MovieApp.Business\obj\Debug\net10.0\ref\MovieApp.Business.dll

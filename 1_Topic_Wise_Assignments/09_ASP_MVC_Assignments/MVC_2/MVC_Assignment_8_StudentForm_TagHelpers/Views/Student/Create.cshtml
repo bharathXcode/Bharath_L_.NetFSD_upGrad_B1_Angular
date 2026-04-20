@@ -1,0 +1,43 @@
+﻿@model MVC_Assignment_8_StudentForm_TagHelpers.Models.Student;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <form method="post">
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" asp-for="Name" />
+                </td>
+                <td>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" asp-for="Age" />
+                </td>
+                <td>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" asp-for="Email" />
+                </td>
+                <td>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Save" class="btn-primary" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

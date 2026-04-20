@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MovieApp.Business/MovieApp.Business.csproj" />
+  <Project Path="MovieApp.Data/MovieApp.Data.csproj" />
+  <Project Path="MovieApp.Web/MovieApp.Web.csproj" Id="50bf3ab5-614e-4c31-a336-b0e122aff15c" />
+</Solution>

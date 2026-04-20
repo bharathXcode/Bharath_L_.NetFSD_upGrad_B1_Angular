@@ -1,0 +1,44 @@
+﻿@model MVC_3rd_Assignment_UserMgmAllCombined.Models.User
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h1>Edit Profile</h1>
+
+    <form asp-action="Edit" method="post">
+
+        <!-- ✅ Hidden Email (important for binding, even though readonly is there) -->
+        <input type="hidden" asp-for="Email" />
+
+        <table>
+            <tr>
+                <td>
+                    <input asp-for="Name" placeholder="Enter Name" />
+                    <span asp-validation-for="Name"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input asp-for="Email" readonly />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- Password optional -->
+                    <input asp-for="Password" type="password" placeholder="New Password (optional)" />
+                    <span asp-validation-for="Password"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</div>
