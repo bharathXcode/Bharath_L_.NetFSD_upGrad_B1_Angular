@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #007acc, #005c99);
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #ffd700;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e6f2ff;
+}
+
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service-card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: white;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.services p {
+    color: #555;
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #003366;
+    color: white;
+    margin-top: 20px;
+}
