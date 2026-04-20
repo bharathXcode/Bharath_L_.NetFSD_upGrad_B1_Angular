@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 1 - Selectors</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+
+<div id="box">ID Box</div>
+
+<div class="card">Card 1</div>
+<div class="card">Card 2</div>
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<table border="1">
+    <tr><td>Row 1</td></tr>
+    <tr><td>Row 2</td></tr>
+    <tr><td>Row 3</td></tr>
+    <tr><td>Row 4</td></tr>
+</table>
+
+<script>
+$(document).ready(function(){
+
+    // 1. Select all <p> and change color
+    $("p").css("color","blue");
+
+    // 2. Select by ID
+    $("#box").css("background","yellow");
+
+    // 3. Select by class
+    $(".card").css("border","2px solid black");
+
+    // 4. First & Last list items
+    $("li:first").css("color","red");
+    $("li:last").css("color","green");
+
+    // 5. Hide even rows
+    $("tr:even").hide();
+
+});
+</script>
+
+</body>
+</html>

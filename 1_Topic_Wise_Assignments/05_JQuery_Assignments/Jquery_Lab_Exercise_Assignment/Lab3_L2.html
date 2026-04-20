@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 3 - Double Click to Hide</title>
+
+    <!-- jQuery CDN (REQUIRED) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        #para {
+            font-size: 20px;
+            padding: 15px;
+            background-color: lightyellow;
+            border: 2px solid black;
+            width: 350px;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Double Click to Hide Paragraph</h2>
+
+    <p id="para">
+        Double click this paragraph to hide me 👆
+    </p>
+
+    <button id="showBtn">Show Paragraph Again</button>
+
+    <script>
+        $(document).ready(function(){
+
+            // Double click to hide
+            $("#para").dblclick(function(){
+                $(this).hide();
+            });
+
+            // Show again button
+            $("#showBtn").click(function(){
+                $("#para").show();
+            });
+
+        });
+    </script>
+
+</body>
+</html>

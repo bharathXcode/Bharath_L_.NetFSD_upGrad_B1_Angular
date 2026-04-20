@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4 - jQuery Effects</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #box {
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            margin: 20px auto;
+            position: relative; /* REQUIRED for animate left */
+            border: 2px solid black;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Lab 4 - jQuery Effects & Animation</h2>
+
+    <div id="box"></div>
+
+    <div>
+        <button id="hideBtn">Hide</button>
+        <button id="showBtn">Show</button>
+        <button id="toggleBtn">Toggle</button>
+        <button id="fadeBtn">Fade In/Out</button>
+        <button id="slideBtn">Slide Up/Down</button>
+        <button id="animateBtn">Animate</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+
+            // 1. Hide
+            $("#hideBtn").click(function(){
+                $("#box").hide(500);
+            });
+
+            // 2. Show
+            $("#showBtn").click(function(){
+                $("#box").show(500);
+            });
+
+            // 3. Toggle
+            $("#toggleBtn").click(function(){
+                $("#box").toggle(500);
+            });
+
+            // 4. Fade In/Out
+            $("#fadeBtn").click(function(){
+                $("#box").fadeToggle(800);
+            });
+
+            // 5. Slide Up/Down
+            $("#slideBtn").click(function(){
+                $("#box").slideToggle(800);
+            });
+
+            // 6. Custom Animation
+            $("#animateBtn").click(function(){
+                $("#box").animate({
+                    left: "250px",
+                    opacity: "0.5",
+                    height: "200px",
+                    width: "200px"
+                }, 1000);
+            });
+
+            // Reset Button
+            $("#resetBtn").click(function(){
+                $("#box").stop(true, true).css({
+                    left: "0px",
+                    opacity: "1",
+                    height: "150px",
+                    width: "150px",
+                    display: "block"
+                });
+            });
+
+        });
+    </script>
+
+</body>
+</html>

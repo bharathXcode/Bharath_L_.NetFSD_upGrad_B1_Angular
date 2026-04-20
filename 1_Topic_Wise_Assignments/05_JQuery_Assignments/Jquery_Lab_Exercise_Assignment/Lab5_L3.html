@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 5 - AJAX Users</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        #loader {
+            display: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        input {
+            padding: 6px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Lab 5 - AJAX User List</h2>
+
+    <div id="loader">Loading Users...</div>
+
+    <br>
+    <input type="text" id="search" placeholder="Search by name or email">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function(){
+
+            function fetchUsers(){
+
+                // Show loader
+                $("#loader").show();
+
+                $.ajax({
+                    url: "https://jsonplaceholder.typicode.com/users",
+                    method: "GET",
+
+                    success: function(data){
+                        $("#loader").hide();
+                        displayUsers(data);
+                    },
+
+                    error: function(){
+                        $("#loader").hide();
+                        alert("Error fetching data. Please try again.");
+                    }
+                });
+            }
+
+            function displayUsers(users){
+                $("#userTable").empty();
+
+                $.each(users, function(index, user){
+                    $("#userTable").append(
+                        `<tr>
+                            <td>${user.name}</td>
+                            <td>${user.email}</td>
+                            <td>${user.address.city}</td>
+                        </tr>`
+                    );
+                });
+            }
+
+            // Search filter
+            $("#search").keyup(function(){
+                let value = $(this).val().toLowerCase();
+
+                $("#userTable tr").filter(function(){
+                    $(this).toggle(
+                        $(this).text().toLowerCase().indexOf(value) > -1
+                    );
+                });
+            });
+
+            // Call function
+            fetchUsers();
+
+        });
+    </script>
+
+</body>
+</html>
