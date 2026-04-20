@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Online Savings Account Opening">
+    <meta name="keywords" content="Bank, Savings Account, Online Banking">
+    <meta name="author" content="Secure Bank">
+    <title>Online Account Opening</title>
+</head>
+<body>
+
+<header>
+    <h1>Secure Bank – Online Account Opening</h1>
+</header>
+
+<main>
+
+<section>
+    <h2>Open Your Savings Account</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text"
+                   name="fullname"
+                   placeholder="Enter full name"
+                   required>
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter email"
+                   required>
+            <br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel"
+                   name="phone"
+                   pattern="[0-9]{10}"
+                   maxlength="10"
+                   placeholder="Enter 10-digit number"
+                   required>
+            <br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date"
+                   name="dob"
+                   max="2008-12-31"
+                   required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Bank Details</legend>
+
+            <label>PAN Number:</label><br>
+            <input type="text"
+                   name="pan"
+                   pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
+                   placeholder="ABCDE1234F"
+                   required>
+            <br><br>
+
+            <label>IFSC Code:</label><br>
+            <input type="text"
+                   name="ifsc"
+                   pattern="[A-Z]{4}[0-9]{7}"
+                   placeholder="ABCD1234567"
+                   required>
+            <br><br>
+
+            <label>Account Type:</label><br>
+            <input list="accountTypes"
+                   name="accountType"
+                   placeholder="Select account type"
+                   required>
+            <datalist id="accountTypes">
+                <option value="Savings Account">
+                <option value="Current Account">
+                <option value="Salary Account">
+            </datalist>
+            <br><br>
+
+            <label>Monthly Income:</label><br>
+            <input type="number"
+                   name="income"
+                   min="1000"
+                   step="500"
+                   placeholder="Enter monthly income"
+                   required>
+            <br><br>
+
+            <label>Upload ID Proof:</label><br>
+            <input type="file"
+                   name="idproof"
+                   required>
+            <br><br>
+
+            <input type="submit" value="Open Account">
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <address>
+        Secure Bank <br>
+        Email: support@securebank.com <br>
+        Phone: +91 9876543210
+    </address>
+</footer>
+
+</body>
+</html>

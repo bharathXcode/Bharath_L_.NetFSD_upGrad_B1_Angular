@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment</title>
+</head>
+<body>
+
+<header>
+    <h1>Online Learning Platform</h1>
+    <hr>
+</header>
+
+<main>
+
+<section>
+
+    <h2>Enroll in a Course</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required>
+            <br><br>
+
+            <label for="experience">Experience (Years):</label><br>
+            <input type="number" id="experience" min="0" max="20" required>
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Course Details</legend>
+
+            <label for="course">Select Course:</label><br>
+            <input list="courses" id="course" required>
+            <datalist id="courses">
+                <option value="Full Stack Development">
+                <option value="Data Science">
+                <option value="Cyber Security">
+                <option value="Cloud Computing">
+                <option value="AI & Machine Learning">
+            </datalist>
+            <br><br>
+
+            <label for="skill">Skill Level (1–10):</label><br>
+            <input type="range" id="skill" min="1" max="10">
+            <br><br>
+
+            <label>Enrollment Progress:</label><br>
+            <progress value="50" max="100"></progress>
+            <br><br>
+
+            <label>Skill Meter:</label><br>
+            <meter min="0" max="10" value="6"></meter>
+            <br><br>
+
+            <input type="submit" value="Enroll Now">
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Online Learning Platform</p>
+</footer>
+
+</body>
+</html>

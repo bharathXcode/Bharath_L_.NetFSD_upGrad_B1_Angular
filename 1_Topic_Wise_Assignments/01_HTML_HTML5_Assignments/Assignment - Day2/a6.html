@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Media Blog Platform for Articles with Audio and Video">
+    <meta name="keywords" content="Blog, Media, Articles, Video, Audio">
+    <meta name="author" content="Media Creator">
+    <title>Media Blog Platform</title>
+</head>
+<body>
+
+<header>
+    <h1>My Media Blog</h1>
+
+    <nav>
+        <a href="#articles">Articles</a> |
+        <a href="#subscribe">Subscribe</a>
+    </nav>
+
+    <form>
+        <input type="search"
+               name="search"
+               placeholder="Search articles...">
+        <input type="submit" value="Search">
+    </form>
+</header>
+
+<main id="articles">
+
+    <article>
+        <h2>Exploring the Mountains</h2>
+        <p>
+            By <strong>John Doe</strong> |
+            <time datetime="2026-09-17">September 17, 2026</time>
+        </p>
+
+        <figure>
+            <img src="mountains.jpg"
+                 alt="Mountain Landscape"
+                 width="400">
+            <figcaption>Beautiful Mountain View</figcaption>
+        </figure>
+
+        <audio controls loop>
+            <source src="mountain-audio.mp3" type="audio/mpeg">
+            <source src="mountain-audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <video controls width="500" poster="mountains.jpg">
+            <source src="intro.mp4" type="video/mp4">
+            <source src="intro.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+
+    </article>
+
+</main>
+
+<section id="subscribe">
+    <h2>Subscribe for Updates</h2>
+
+    <form>
+        <label>Email:</label><br>
+        <input type="email"
+               name="subscriberEmail"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+        <input type="submit" value="Subscribe">
+    </form>
+</section>
+
+<footer>
+    <address>
+        Media Blog Platform <br>
+        Email: contact@mediablog.com <br>
+        Phone: +91 9876543210
+    </address>
+
+    <p>&copy; 2026 Media Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

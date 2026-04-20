@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Appointment Booking</title>
+</head>
+<body>
+
+<header>
+    <h1>City Hospital</h1>
+</header>
+
+<main>
+
+<section>
+    <h2>Book Appointment</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Patient Details</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname"
+                   placeholder="Enter full name"
+                   required>
+            <br><br>
+
+            <label>Age:</label><br>
+            <input type="number" name="age"
+                   min="1" max="120"
+                   placeholder="Enter age"
+                   required>
+            <br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel"
+                   name="phone"
+                   pattern="[0-9]{10}"
+                   maxlength="10"
+                   placeholder="Enter 10-digit number"
+                   required>
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter email"
+                   required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Appointment Details</legend>
+
+            <label>Department:</label><br>
+            <input list="departments"
+                   name="department"
+                   placeholder="Type department"
+                   required>
+            <datalist id="departments">
+                <option value="Cardiology">
+                <option value="Orthopedics">
+                <option value="Neurology">
+                <option value="Pediatrics">
+                <option value="Dermatology">
+            </datalist>
+            <br><br>
+
+            <label>Preferred Doctor:</label><br>
+            <input type="text"
+                   list="doctors"
+                   name="doctor"
+                   placeholder="Select or type doctor">
+            <datalist id="doctors">
+                <option value="Dr. Sharma">
+                <option value="Dr. Rao">
+                <option value="Dr. Mehta">
+            </datalist>
+            <br><br>
+
+            <label>Appointment Date:</label><br>
+            <input type="date"
+                   name="appointmentDate"
+                   min="2026-01-01"
+                   required>
+            <br><br>
+
+            <label>Appointment Time:</label><br>
+            <input type="time"
+                   name="appointmentTime"
+                   required>
+            <br><br>
+
+            <label>Upload Medical Reports:</label><br>
+            <input type="file"
+                   name="reports"
+                   multiple
+                   required>
+            <br><br>
+
+            <label>
+                <input type="checkbox" name="emergency">
+                Emergency Case
+            </label>
+            <br><br>
+
+            <input type="submit" value="Book Appointment">
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <address>
+        City Hospital <br>
+        Email: info@cityhospital.com <br>
+        Phone: +91 9876543210
+    </address>
+</footer>
+
+</body>
+</html>
